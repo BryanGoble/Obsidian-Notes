@@ -1,0 +1,170 @@
+{
+  "main": {
+    "id": "f3ddd6ba0c935503",
+    "type": "split",
+    "children": [
+      {
+        "id": "4248f23d5451cfd0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "feb9b84abac64453",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fe8f74e8b31d9ca9",
+    "type": "split",
+    "children": [
+      {
+        "id": "a643772f7b391d1c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3d0a72f3eb8b65ec",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7600af17a70c4d29",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "2b34b6b0771ae0bd",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "eea33b72189e85c4",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "3b95ee12e4bc7d51",
+    "type": "split",
+    "children": [
+      {
+        "id": "80bb0eddffc5f28a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8fe8d1db8451e4ea",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2c98cd89431009e1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2cbf21bc636f5b16",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "47369303892ebeb8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "3d0a72f3eb8b65ec",
+  "lastOpenFiles": [
+    "New Text Document.txt",
+    "2023-09-12.md",
+    "Codecademy/Computer Science Track/CSCJ 22 - Introduction to Programming.md",
+    "Vet Tec Study Notes/Networking.md",
+    "Vet Tec Study Notes/Networking",
+    "Vet Tec Study Notes",
+    "Web Development/CSS/CSS.md",
+    "Codecademy/Computer Science Track",
+    "Codecademy",
+    "2023-09-11.md",
+    "Pasted image 20230403191154.png.md",
+    "Pasted image 20230403191154.png",
+    "Pasted image 20230403191111.png",
+    "Untitled.canvas",
+    "Web Development/CSS",
+    "Web Development/HTML",
+    "Web Development",
+    "2023-04-03.md"
+  ]
+}
