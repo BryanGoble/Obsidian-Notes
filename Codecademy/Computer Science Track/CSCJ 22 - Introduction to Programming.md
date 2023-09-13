@@ -1,8 +1,4 @@
 
----
-share: true  
----
-
 # Python Syntax
 
 - Multi-line Strings
