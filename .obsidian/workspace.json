@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Vet Tec Study Notes/Networking.md",
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e674a90ff1b6b990",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Codecademy/Computer Science Track/CSCJ 22 - Introduction to Programming.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Vet Tec Study Notes/Networking.md",
+                "file": "Codecademy/Computer Science Track/CSCJ 22 - Introduction to Programming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Vet Tec Study Notes/Networking.md",
+                "file": "Codecademy/Computer Science Track/CSCJ 22 - Introduction to Programming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Vet Tec Study Notes/Networking.md"
+                "file": "Codecademy/Computer Science Track/CSCJ 22 - Introduction to Programming.md"
               }
             }
           }
@@ -154,11 +167,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0587c207f38e6d07",
+  "active": "e674a90ff1b6b990",
   "lastOpenFiles": [
+    "Homelab/Docker.md",
     "README.md",
-    "Codecademy/Computer Science Track/CSCJ 22 - Introduction to Programming.md",
+    "Homelab",
     "Vet Tec Study Notes/Networking.md",
+    "Codecademy/Computer Science Track/CSCJ 22 - Introduction to Programming.md",
     "New Text Document.txt",
     "2023-09-12.md",
     "Vet Tec Study Notes/Networking",
