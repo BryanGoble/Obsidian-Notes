@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b6b580b7db70858e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Codecademy/Computer Science Track/CSCJ 22 - Introduction to Programming.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -167,13 +179,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e674a90ff1b6b990",
+  "active": "b6b580b7db70858e",
   "lastOpenFiles": [
     "Homelab/Docker.md",
+    "Software Development Methodologies.md",
+    "Codecademy/Computer Science Track/CSCJ 22 - Introduction to Programming.md",
     "README.md",
     "Homelab",
     "Vet Tec Study Notes/Networking.md",
-    "Codecademy/Computer Science Track/CSCJ 22 - Introduction to Programming.md",
     "New Text Document.txt",
     "2023-09-12.md",
     "Vet Tec Study Notes/Networking",
