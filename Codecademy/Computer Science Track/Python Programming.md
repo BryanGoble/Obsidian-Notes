@@ -1,5 +1,5 @@
 
-# Python Syntax
+# Syntax [^2]
 
 - Multi-line Strings
 		- Python strings can occupy multiple lines by surrounding the text in three quotation marks either double or single `'''` `"""`.
@@ -37,6 +37,25 @@
 		- `.count()` - Counts number of iterations of a specified item in a list
 		- `.sort()` - Sorts items in a list by alphabetical or numerical order.
 			- can also add `reverse=True` within the parentheses to reverse the output
+		- `.split(delimiter)` - split a string at the specified delimiter(s)
+			- If a delimiter is not specified, then splitting at the spaces is default.
+		- `'delimiter'.join(list-to-combine)` - Joins the items in a list with the delimiter.
+			```Python
+			my_munequita = ['My', 'Spanish', 'Harlem', 'Mona', 'Lisa']  
+			print(' '.join(my_munequita))  
+			# => 'My Spanish Harlem Mona Lisa'
+			```
+		- `.strip()` - Removes all of the whitespace before and after the string. if you specify an item to strip in the parentheses, the method will only strip that item and no longer strip the whitespace.
+		- `.replace(argument1, argument2)` - Takes two arguments and replaces all instances of the first argument with the second
+		- `.find()` - takes a string as an argument and searches the string it was ran on for the index of the first instance of the specified string.
+			```Python
+			print('smooth'.find('t'))  
+			# => '4'
+			```
+		- `.title()` - Capitalizes every first letter of each word in the string
+		- `.lower()` - Changes each character in a string to its lowercase form
+		- `.upper()` - Changes each character in a string to its uppercase form
+		- `.format(arg1, arg2, etc)` - used to dynamically replace values based on the values of the arguments specified
 ## Control Flow
 - Boolean Expressions (bool) = `True` or `False`
 	- Logical Operators
