@@ -56,6 +56,77 @@
 		- `.lower()` - Changes each character in a string to its lowercase form
 		- `.upper()` - Changes each character in a string to its uppercase form
 		- `.format(arg1, arg2, etc)` - used to dynamically replace values based on the values of the arguments specified
+## Read/Write a File
+- You can import other files in your project with the `with` statement.
+	- The `with` statement, creates a context-manager, which performs cleanup after exiting the adjacent indented block. This replaces the old method of having to open and close the included file.
+	- Default action is to open the file in read-only mode. An `'r'` argument can be specified in `open()`, but not necessary due to default.
+	- If `'w'` is specified, that opens the file in write mode. This will write over the contents of the file when `.write()` is called.
+	- If `a` is specified, this will open the file in append mode and will only append to the document when `.write()` is called.
+	```Python
+	with open('real_cool_document.txt', <optional_arg>) as cool_doc:
+		cool_contents = cool_doc.read()
+	print(cool_contents)
+	```
+- `.read()` allows us to read the content of the imported file
+- `.readlines()` will read each line of the file one at a time
+- `.readline()` will read one line at a time in succession every time the method is called.
+	```Python
+	# Example.txt
+	You do look, my son, in a moved sort,
+	As if you were dismayed: be cheerful, sir.
+
+	with open('Example.txt') as first_line_doc:
+	  first_line = first_line_doc.readline()
+	print(first_line) # You do look, my son, in a moved sort,
+	```
+- `.write()` used to write/append to the file depending on whether 'w' or 'a' was specified.
+### CSV Handling
+- Using the standard `with` statement, we can read csv files just like any other file.
+- CSVs are, of course, different from standard text files as they can store/organize data to be used elsewhere.
+- CSV isn't built-in to Python, so you do need to import the `csv` module first.
+#### CSV Read
+- Replace the second argument in `open()` with `newline=''` to ignore escape characters, `\n`, and specify that the end of the row is at the end of each row of text.
+- The first row in each CSV file is by default the header row, so you can use the text of each header as an index to pick data from the rest of the rows.
+	```Python
+	import csv  
+  
+	list_of_email_addresses = []  
+	with open('users.csv', newline='') as users_csv:  
+	  user_reader = csv.DictReader(users_csv)  
+	  for row in user_reader:  
+	    list_of_email_addresses.append(row['Email'])
+```
+- `.DictReader(<alt_file_name>, delimiter=';')` - csv module method to convert the lines of the CSV file to dictionaries that can be referenced using the header name.
+	- An optional `delimiter=` argument can be specified if the file doesn't use commas as the default data separator.
+#### CSV Write
+- Just as we can read CSV files, we can also write/create them from prebuilt dictionaries.
+- Using `with` open the csv and use `'w'` as the second argument.
+- `DictWriter(<alt_file_name>, fieldnames=<field_variable>)` - csv method to write to a CSV file.
+	- `fieldnames=` is specified to reference the headers for each row.
+- `.writeheader()` will write the `fieldnames` as the file header
+- `.writerow()` will write the specified item(s) to the following rows.
+	```Python
+	big_list = [{'name': 'Fredrick Stein', 'userid': 6712359021, 'is_admin': False}, {'name': 'Wiltmore Denis', 'userid': 2525942, 'is_admin': False}, {'name': 'Greely Plonk', 'userid': 15890235, 'is_admin': False}, {'name': 'Dendris Stulo', 'userid': 572189563, 'is_admin': True}]  
+	  
+	import csv  
+	  
+	with open('output.csv', 'w') as output_csv:  
+	  fields = ['name', 'userid', 'is_admin']  
+	  output_writer = csv.DictWriter(output_csv, fieldnames=fields)  
+	  
+	  output_writer.writeheader()  
+	  for item in big_list:  
+	    output_writer.writerow(item)
+```
+### JSON Handling
+- Python is also able to handle JavaScript Object Notation (JSON) files. 
+- JSON format is very similar to Python's dictionaries which makes it easily readable from the developers standpoint.
+- Just like CSV files, JSON handling is also not built-in. Use `import json` to bring in the JSON package.
+#### JSON Read
+- `.load(<alt_file_name>)` - Reads and converts the data to a python dictionary, similar to `.DictReader()`
+#### JSON Write
+- As standard practice, remember to specify `'w'` in `open()`
+- `.dump(<dictionary_var>, <alt_file_name>)` - Converts a Python dictionary to JSON format then writes that data to the specified JSON file.
 ## Control Flow
 - Boolean Expressions (bool) = `True` or `False`
 	- Logical Operators
@@ -199,6 +270,16 @@ west_coast_state = states['CA']
 - Dictionaries in Python are implemented in C, which makes them highly efficient in terms of memory and time complexity.
 - The keys are hashed and the resulting hash values are used to index the key-value pairs in a hash table.
 - Since Python 3.7, dictionaries are also ordered meaning the key-value pairs are stored in a specific order.
+- To add a key:value pair or replace the value of a key, use the following format
+	- `<dictionary>[<key>] = <value>`
+	- If the key doesn't exist, it and the value will be added otherwise the key value will just be updated.
+- `.get(<key-to-get>, <optional-default-value-to-return>)` - used to get the value of a specified key.
+	- You can also specify an optional second argument that is returned as the default value if a value for the requested key doesn't exist.
+- `.items()` - Retrieves a list of the dictionary keys and values
+- `.keys()` - Retrieves a list of the dictionary keys
+- `.values()` - Retrieves a list of the dictionary values
+- `<key> in <dictionary-name>` - Returns `True` if key exists in dictionary, otherwise `False`
+- `.pop(<key>, <optional-default-value>)` - removes the key and its value. If the key doesn't exist, an error is raised unless the default return value is included.
 
 ### Hashmaps [^1]
 - Not a built-in data structure in Python, but can be implemented using a dictionary or list.
@@ -236,3 +317,4 @@ print(my_hashmap)
 # Footnotes
 
 [^1]: https://programsquared.com/python/difference-between-dictionary-and-hashmap-in-python/#:~:text=Dictionaries%20are%20built%2Din%20and,different%20data%20types%20as%20keys.
+[^2]: https://www.codecademy.com/resources/docs/python
