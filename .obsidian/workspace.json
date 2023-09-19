@@ -4,47 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "67e03d138df6107b",
+        "id": "82ea1d9b03be7940",
         "type": "tabs",
         "children": [
           {
-            "id": "0587c207f38e6d07",
+            "id": "9e6c7866bf575d6a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e674a90ff1b6b990",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Codecademy/Computer Science Track/Python Programming.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b6b580b7db70858e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Codecademy/Computer Science Track/Python Programming.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -102,7 +73,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "3b95ee12e4bc7d51",
@@ -118,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Codecademy/Computer Science Track/Python Programming.md",
+                "file": "ExamPro/Terraform Cloud Project Beginner Bootcamp/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Codecademy/Computer Science Track/Python Programming.md",
+                "file": "ExamPro/Terraform Cloud Project Beginner Bootcamp/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Codecademy/Computer Science Track/Python Programming.md"
+                "file": "ExamPro/Terraform Cloud Project Beginner Bootcamp/Untitled.md"
               }
             }
           }
@@ -179,14 +150,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b6b580b7db70858e",
+  "active": "3d0a72f3eb8b65ec",
   "lastOpenFiles": [
-    "Homelab/Docker.md",
-    "Software Development Methodologies.md",
     "Codecademy/Computer Science Track/Python Programming.md",
+    "ExamPro/Terraform Cloud Project Beginner Bootcamp/Untitled.md",
+    "ExamPro/Terraform Cloud Project Beginner Bootcamp",
+    "ExamPro",
+    "Codecademy/Computer Science Track/Git.md",
+    "Cheatsheets/git-cheat-sheet-education.pdf",
+    "Cheatsheets",
     "README.md",
-    "Homelab",
+    "Software Development Methodologies.md",
+    "Vet Tec Study Notes/Interviews.md",
     "Vet Tec Study Notes/Networking.md",
+    "Homelab/Docker.md",
+    "Homelab",
     "New Text Document.txt",
     "2023-09-12.md",
     "Vet Tec Study Notes/Networking",
@@ -199,9 +177,6 @@
     "Pasted image 20230403191154.png",
     "Pasted image 20230403191111.png",
     "Untitled.canvas",
-    "Web Development/CSS",
-    "Web Development/HTML",
-    "Web Development",
     "2023-04-03.md"
   ]
 }

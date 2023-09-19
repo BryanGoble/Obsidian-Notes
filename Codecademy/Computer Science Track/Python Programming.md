@@ -1,5 +1,5 @@
 
-# Syntax [^2]
+# Syntax [^1]
 
 - Multi-line Strings
 		- Python strings can occupy multiple lines by surrounding the text in three quotation marks either double or single `'''` `"""`.
@@ -47,6 +47,7 @@
 			```
 		- `.strip()` - Removes all of the whitespace before and after the string. if you specify an item to strip in the parentheses, the method will only strip that item and no longer strip the whitespace.
 		- `.replace(argument1, argument2)` - Takes two arguments and replaces all instances of the first argument with the second
+		- `.index('value')` - When ran on a list, returns the index of the value in the list.
 		- `.find()` - takes a string as an argument and searches the string it was ran on for the index of the first instance of the specified string.
 			```Python
 			print('smooth'.find('t'))  
@@ -252,7 +253,7 @@ print(result)
 - Trailing commas are required when making a one element tuple, otherwise Python treats the item within the parentheses as its own object and not a tuple, because parentheses are also used in equations.
 	- For example, `single_tuple = (2)` evaluates to `2`, whereas, `single_tuple = (2,)` evaluates to `(2)` and is treated as an actual tuple.
 
-### Dictionaries [^1]
+### Dictionaries [^2]
 - A built-in data structure, used to store key-value pairs for efficient retrieval.
 - Dictionaries are contained within curly braces `{}`
 - Using a hash function, the keys are turned into an index within an underlying array.
@@ -270,7 +271,7 @@ west_coast_state = states['CA']
 - Dictionaries in Python are implemented in C, which makes them highly efficient in terms of memory and time complexity.
 - The keys are hashed and the resulting hash values are used to index the key-value pairs in a hash table.
 - Since Python 3.7, dictionaries are also ordered meaning the key-value pairs are stored in a specific order.
-- To add a key:value pair or replace the value of a key, use the following format
+- To add a key : value pair or replace the value of a key, use the following format
 	- `<dictionary>[<key>] = <value>`
 	- If the key doesn't exist, it and the value will be added otherwise the key value will just be updated.
 - `.get(<key-to-get>, <optional-default-value-to-return>)` - used to get the value of a specified key.
@@ -280,8 +281,9 @@ west_coast_state = states['CA']
 - `.values()` - Retrieves a list of the dictionary values
 - `<key> in <dictionary-name>` - Returns `True` if key exists in dictionary, otherwise `False`
 - `.pop(<key>, <optional-default-value>)` - removes the key and its value. If the key doesn't exist, an error is raised unless the default return value is included.
+- `.update({key: value, key: value})` - Allows you to add several new key : value pairs at a time and/or update existing pairs.
 
-### Hashmaps [^1]
+### Hashmaps [^2]
 - Not a built-in data structure in Python, but can be implemented using a dictionary or list.
 - Uses a hash function to map keys to values.
 - A hash function `hash()` is a built-in mathematical function that takes an input (or 'message') and returns a fixed-size of string of characters, which is called the 'hash value'.
@@ -297,14 +299,86 @@ print(my_hashmap)
 ```
 - Hashmaps are unordered meaning the key-value pairs are not stored in a specific order.
 - Advantaged over dictionaries due to being able to handle more data types as keys.
+## Classes
+- `class` is a template for a data type.
+	- describes the kinds of information that class will hold and how you will interact with the data.
+- The PEP 8 Style Guide for Python recommends capitalizing the names of classes to make them easier to identify. [^3]
+```Python
+class CoolClass:
+	pass
+```
+- You must create an instance of the class, in order for it to work. (Similar to calling a function)
+	- `<ClassName>()` - This will create an instance of the class and can be assigned to a variable.
+	- creating an instance takes a class and turns it into an object. The pattern of defining classes and creating objects is known as *Object Oriented Programming* or *OOP*.
+- If you use `type()` on the object, the return is the current class in the file
+	```Python
+	class CoolClass:
+		pass
 
+	cool_instance = CoolClass()
 
+	print(type(cool_instance)) # prints "<class '__main__.CoolClass'>"
+```
+- `__main__` - means "this current file that you're running". Essentially referencing the class that was defined in the current Python file.
+- Variable can be referenced in the class by converting the class to an object and access `object.variable`
+	```Python
+	class Musician:
+		title = 'Rockstar'
 
+	drumer = Musician() # Converting to an object
+	print(drummer.title) # object.variable
+	# prints "Rockstar"
+```
+- `hasattr(object, "attribute")` - Returns `True` or `False` depending on whether or not the specified attribute exists in the object.
+- `getattr(object, "attribute", <optional-def-value>)` - Returns the value of the specified attribute or the default value if the attribute doesn't exist
+- `dir(object)` - Function that returns a list of an objects available attributes
+### Class Methods
+- Methods are functions that are defined as part of a class
+- Methods are defined similarly to functions, but the first argument should be `self` to reference the class object that the method is within.
+```Python
+class Dog:  
+  dog_time_dilation = 7  
+  
+  def time_explanation(self):  
+    print("Dogs experience {} years for every 1 human year.".format(self.dog_time_dilation))  
+  
+pipi_pitbull = Dog()  
+pipi_pitbull.time_explanation()  
+# Prints "Dogs experience 7 years for every 1 human year."
+```
+- More than just the `self` argument can be specified, and the following arguments will be treated the same as they would in normal functions.
+- `__init__()` - the `init` dunder method is used to initialize a newly created object. Every time the class is initialized, this method is called.
+	- Methods that are used to prepare an object being instantiated are called *constructors*
+	```Python
+	class Shouter:  
+	  def __init__(self):  
+	    print("HELLO?!")  
+	  
+	shout1 = Shouter() # prints "HELLO?!"
+```
+- Most Python programmers refer to a constructor as `__init__()`.
+- - `__repr__(self)` - the `repr` dunder method is used to define in Python what we want the **string representation** of a particular class to be.
+	- Can only contain one argument which is `self` and must return a string
+	```Python
+	# Without repr, the default class object output is an object at a location in memory. 
+	class Employee():  
+	  def __init__(self, name):  
+	    self.name = name  
+	  
+	argus = Employee("Argus Filch")  
+	print(argus) # prints "<__main__.Employee object at 0x104e88390>"
 
-
-
-
-
+	# With repr, the output is switched to the text value rather than an object.
+	class Employee():  
+	  def __init__(self, name):  
+	    self.name = name  
+	  
+	  def __repr__(self):  
+	    return self.name  
+	  
+	argus = Employee("Argus Filch")  
+	print(argus) # prints "Argus Filch"
+	```
 
 
 
@@ -316,5 +390,6 @@ print(my_hashmap)
 
 # Footnotes
 
-[^1]: https://programsquared.com/python/difference-between-dictionary-and-hashmap-in-python/#:~:text=Dictionaries%20are%20built%2Din%20and,different%20data%20types%20as%20keys.
-[^2]: https://www.codecademy.com/resources/docs/python
+[^1]: https://www.codecademy.com/resources/docs/python
+[^2]: https://programsquared.com/python/difference-between-dictionary-and-hashmap-in-python/#:~:text=Dictionaries%20are%20built%2Din%20and,different%20data%20types%20as%20keys.
+[^3]: https://peps.python.org/pep-0008/
