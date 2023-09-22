@@ -11,8 +11,12 @@
             "id": "9e6c7866bf575d6a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "ExamPro/Terraform Cloud Project Beginner Bootcamp/Week 0 (Prep).md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -89,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ExamPro/Terraform Cloud Project Beginner Bootcamp/Untitled.md",
+                "file": "ExamPro/Terraform Cloud Project Beginner Bootcamp/Week 0 (Prep).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ExamPro/Terraform Cloud Project Beginner Bootcamp/Untitled.md",
+                "file": "ExamPro/Terraform Cloud Project Beginner Bootcamp/Week 0 (Prep).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ExamPro/Terraform Cloud Project Beginner Bootcamp/Untitled.md"
+                "file": "ExamPro/Terraform Cloud Project Beginner Bootcamp/Week 0 (Prep).md"
               }
             }
           }
@@ -150,10 +154,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3d0a72f3eb8b65ec",
+  "active": "9e6c7866bf575d6a",
   "lastOpenFiles": [
     "Codecademy/Computer Science Track/Python Programming.md",
-    "ExamPro/Terraform Cloud Project Beginner Bootcamp/Untitled.md",
+    "ExamPro/Terraform Cloud Project Beginner Bootcamp/Week 0 (Prep).md",
     "ExamPro/Terraform Cloud Project Beginner Bootcamp",
     "ExamPro",
     "Codecademy/Computer Science Track/Git.md",
