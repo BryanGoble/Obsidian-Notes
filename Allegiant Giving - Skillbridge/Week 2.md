@@ -54,14 +54,60 @@ In computer science and mathematics, sequences and series are often used to mode
 
 In both arithmetic and geometric sequences, the key is that there's a consistent rule for getting from one term to the next. These sequences are commonly used in various mathematical and scientific contexts, such as calculating interest in finance (geometric) or modeling the growth of data (arithmetic or geometric).
 
-### Summation
-In simple terms, summation is a mathematical operation that lets you add up a bunch of numbers together. It's like when you have a list of numbers, and you want to find the total or the result of adding all those numbers. 
+### Sigma Notation, Summation
+In simple terms, sigma notation, also known as summation notation, is a way to represent the sum of a series of numbers or terms in a concise and organized manner. It uses the Greek letter sigma (Σ) to denote the summation operation. Here's a simple explanation:
 
-For example, if you have the numbers 1, 2, 3, 4, and 5, you can use summation to find their sum, which is 1 + 2 + 3 + 4 + 5 = 15. So, in this case, the summation of those numbers is 15.
+1. **Sigma Symbol (Σ):** The sigma symbol Σ is used to indicate that you're going to add up a bunch of things.
 
-In mathematical notation, you often see summation represented by the Greek letter sigma (∑). For the example above, it would look like this:
+2. **Index:** You typically see a variable below the sigma symbol, like "i" or "k." This variable is called the index, and it represents the position of the term you're adding.
 
-∑ (from 1 to 5) of i
+3. **Limits:** There are numbers above and below the sigma symbol that show the starting and ending points for the summation. The lower limit (often denoted as "n =") tells you where to begin adding, and the upper limit (often denoted as "m =") tells you where to stop.
 
-Here, "i" represents each number in the sequence, and the sigma (∑) tells you to add up all the numbers from 1 to 5. So, it's a way of compactly expressing the process of adding a series of numbers.
+4. **Expression:** To the right of the sigma symbol, you have an expression that describes what you're adding at each position, based on the index variable.
+
+Here's an example to illustrate sigma notation:
+
+Σ(i) from i = 1 to 4
+
+This means you're going to add up a series of numbers where "i" starts at 1 and goes up to 4. At each step, you take the current value of "i" and add it to the sum:
+
+Sum = 1 + 2 + 3 + 4 = 10
+
+So, in simple terms, sigma notation helps you represent and easily compute the sum of a sequence of numbers by specifying the pattern for adding them together.
+
+## Graphs of functions and kinematics
+
+### Graphs of Functions:
+   - Think of a graph of a function as a way to show how one thing (like time, temperature, or distance) changes in relation to another thing (like speed, age, or height).
+   - Imagine a piece of paper with a horizontal line (the x-axis) and a vertical line (the y-axis) intersecting at a point called the origin (usually at the center of the graph).
+   - Now, let's say you have a function, which is like a rule that tells you how to calculate the y-coordinate (vertical position) for any given x-coordinate (horizontal position).
+   - When you plot points on the graph using the x and y-coordinates from the function, you create a curve or a line that shows how one thing depends on the other.
+   - For example, if you have a function that describes how the temperature changes with time, you can create a graph where time is on the x-axis, and temperature is on the y-axis. The curve or line on the graph will show you how the temperature changes over time.
+
+### Kinematics:
+   - Kinematics is like a set of rules that helps you describe and understand the motion of objects, like how a car moves, how a ball is thrown, or how a person walks.
+   - It's all about studying how things move, so you can predict where they will be at different times.
+   - In kinematics, you look at factors like speed, distance, time, and direction to figure out how an object is moving.
+   - Imagine watching a car driving down the road. You can use kinematics to answer questions like, "How fast is it going?" or "How long will it take to reach a certain point?"
+   - Kinematics equations and graphs help you make sense of these questions by showing how different variables are related to each other as an object moves. For example, a graph might show how an object's position changes with time, so you can see if it's speeding up, slowing down, or staying constant.
+
+In essence, graphs of functions and kinematics are tools that help us visualize and understand how things change and move in the world around us.
+
+### Interval Notation
+Interval notation is a way to express and describe sets of real numbers or intervals on the number line in a simple and compact form. It uses brackets and parentheses to show which values are included or excluded within a range. Here's a simple explanation:
+
+1. Square Brackets [ ]:
+   - If you see square brackets, like [a, b], it means that both 'a' and 'b' are included in the interval. In other words, the interval contains all the numbers from 'a' to 'b,' including 'a' and 'b' themselves.
+   - For example, [2, 5] represents the interval from 2 to 5, including both 2 and 5: {2, 3, 4, 5}.
+
+2. Round Parentheses ( ):
+   - If you see round parentheses, like (a, b), it means that 'a' and 'b' are excluded from the interval. In other words, the interval contains all the numbers between 'a' and 'b,' but 'a' and 'b' themselves are not part of it.
+   - For example, (1, 4) represents the interval from 1 to 4, but it does not include 1 or 4: {2, 3}.
+
+3. A Combination of Brackets and Parentheses:
+   - Sometimes, you might see a combination of brackets and parentheses in an interval. For instance, [a, b) means that 'a' is included, but 'b' is not.
+   - Similarly, (a, b] means that 'b' is included, but 'a' is not.
+   - For example, [1, 5) includes 1 but not 5, while (2, 6] includes 6 but not 2.
+
+Interval notation is a concise way to represent a range of values on the number line, making it easier to communicate and work with intervals in mathematics and various fields like algebra, calculus, and set theory.
 

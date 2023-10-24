@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Allegiant Giving - Skillbridge/Week 2.md",
+                "file": "Allegiant Giving - Skillbridge/Week 3.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Allegiant Giving - Skillbridge/Week 2.md",
+                "file": "Allegiant Giving - Skillbridge/Week 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Allegiant Giving - Skillbridge/Week 2.md",
+                "file": "Allegiant Giving - Skillbridge/Week 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Allegiant Giving - Skillbridge/Week 2.md"
+                "file": "Allegiant Giving - Skillbridge/Week 3.md"
               }
             }
           }
@@ -156,14 +156,15 @@
   },
   "active": "382b8be1ebd13486",
   "lastOpenFiles": [
-    "Allegiant Giving - Skillbridge/Week 1.md",
+    "Codecademy/Computer Science Track/Python Programming.md",
+    "Allegiant Giving - Skillbridge/Week 3.md",
+    "Software Development Methodologies.md",
     "Allegiant Giving - Skillbridge/Week 2.md",
+    "Allegiant Giving - Skillbridge/Week 1.md",
     "ExamPro/Terraform Cloud Project Beginner Bootcamp/Week 0 (Prep).md",
     "Allegiant Giving - Skillbridge",
     "Codecademy/Computer Science Track/Git.md",
     "Cheatsheets/git-cheat-sheet-education.pdf",
-    "Codecademy/Computer Science Track/Python Programming.md",
-    "Software Development Methodologies.md",
     "Vet Tec Study Notes/Networking.md",
     "Vet Tec Study Notes/Interviews.md",
     "README.md",
