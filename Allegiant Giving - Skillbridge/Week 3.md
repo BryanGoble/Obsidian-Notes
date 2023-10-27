@@ -585,3 +585,47 @@ $        Matches the end of the line
 [a-z0-9] The set of characters can include a range
 (        Indicates where string extraction is to start
 )        Indicates where string extraction is to end
+
+## 12.1 - Networked Technology
+1. TCP Connections / Sockets - In computer networking, an Internet socket or network socket is an endpoint of a bidirectional inter-process communication flow across an Internet Protocol-based computer network, such as the Internet.
+2. TCP Ports
+	- A port is an application-specific or process-specific software communications endpoint
+	- Allows multiple networked applications to coexist on the same server
+	- Common TCP Ports
+		- Telnet (23) - Remote Access
+		- SSH (22) - Secure Remote Access
+		- HTTP (80) - Web Browsing
+		- HTTPS (443) - Secure Web Browsing
+		- SMTP (25) - Mail
+		- IMAP (143/220/993) - Mail Retrieval
+		- POP (109/110) - Mail Retrieval
+		- DNS (53) - Domain Name
+		- FTP (21) - File Transfer
+
+### Sockets in Python
+Python has built-in support for TCP Sockets
+
+```Python
+import socket
+mysock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+mysock.connect( ('data.pr4e.org', 80) ) # Host, Port
+```
+
+Three lines of code is all that's needed to make a basic connection to an endpoint
+
+You can also use the above code to send commands to a site/server to retrieve/send files/data.
+
+```Python
+import socket
+mysock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+mysock.connect( ('data.pr4e.org', 80) ) # Host, Port
+
+mysock.send('GET http://data.pr4e.org/romeo.txt HTTP/1.0\r\n\r\n'.encode())
+
+while True:
+	data = mysock.recv(512) # Receive upto 512 bytes of data
+	if (len(data) < 1):
+		break
+	print(data.decode())
+mysock.close()
+```
