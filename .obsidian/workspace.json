@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "aee661da810d55b8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Allegiant Giving - Skillbridge/Week 4.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Allegiant Giving - Skillbridge/Week 3.md",
+                "file": "Allegiant Giving - Skillbridge/Week 4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Allegiant Giving - Skillbridge/Week 3.md",
+                "file": "Allegiant Giving - Skillbridge/Week 4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Allegiant Giving - Skillbridge/Week 3.md"
+                "file": "Allegiant Giving - Skillbridge/Week 4.md"
               }
             }
           }
@@ -154,12 +167,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "382b8be1ebd13486",
+  "active": "aee661da810d55b8",
   "lastOpenFiles": [
-    "Codecademy/Computer Science Track/Python Programming.md",
     "Allegiant Giving - Skillbridge/Week 3.md",
     "Allegiant Giving - Skillbridge/Week 2.md",
     "Allegiant Giving - Skillbridge/Week 1.md",
+    "Allegiant Giving - Skillbridge/Week 4.md",
+    "Codecademy/Computer Science Track/Python Programming.md",
     "Software Development Methodologies.md",
     "ExamPro/Terraform Cloud Project Beginner Bootcamp/Week 0 (Prep).md",
     "Allegiant Giving - Skillbridge",
