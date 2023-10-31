@@ -4,23 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "2ad47080901604e0",
+        "id": "6f6502051ece6ac0",
         "type": "tabs",
         "children": [
           {
-            "id": "382b8be1ebd13486",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Allegiant Giving - Skillbridge/Week 3.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "aee661da810d55b8",
+            "id": "056a9674a7c1d53c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -31,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -167,12 +154,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "aee661da810d55b8",
+  "active": "3d0a72f3eb8b65ec",
   "lastOpenFiles": [
+    "Allegiant Giving - Skillbridge/Code Assignments/Using APIs in Python 3.md",
+    "Allegiant Giving - Skillbridge/Code Assignments/Web Scraping JSON data.md",
+    "Allegiant Giving - Skillbridge/Code Assignments/Parsing Websites in XML.md",
+    "Allegiant Giving - Skillbridge/Code Assignments/Loops and Web Scraping.md",
+    "Allegiant Giving - Skillbridge/Code Assignments/Web Scraping with BeautifulSoup.md",
     "Allegiant Giving - Skillbridge/Week 3.md",
+    "Allegiant Giving - Skillbridge/Code Assignments/Sockets in Python 3.md",
+    "Allegiant Giving - Skillbridge/Code Assignments/Reading Files Parsing w REGEX.md",
+    "Allegiant Giving - Skillbridge/Code Assignments/Untitled",
     "Allegiant Giving - Skillbridge/Week 2.md",
-    "Allegiant Giving - Skillbridge/Week 1.md",
     "Allegiant Giving - Skillbridge/Week 4.md",
+    "Allegiant Giving - Skillbridge/Code Assignments",
+    "Allegiant Giving - Skillbridge/Week 1.md",
     "Codecademy/Computer Science Track/Python Programming.md",
     "Software Development Methodologies.md",
     "ExamPro/Terraform Cloud Project Beginner Bootcamp/Week 0 (Prep).md",
@@ -191,9 +187,7 @@
     "New Text Document.txt",
     "2023-09-12.md",
     "Vet Tec Study Notes/Networking",
-    "Vet Tec Study Notes",
     "Web Development/CSS/CSS.md",
-    "Codecademy/Computer Science Track",
     "2023-09-11.md",
     "Pasted image 20230403191154.png.md",
     "Pasted image 20230403191154.png",
