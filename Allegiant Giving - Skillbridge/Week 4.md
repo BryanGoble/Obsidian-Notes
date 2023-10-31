@@ -138,3 +138,118 @@ ctx.verify_mode = ssl.CERT_NONE
 
 # Set .urlopen(url, context=ctx) to refer back to the empty SSL
 ```
+
+## 13.1 - XML
+In simple terms, XML (Extensible Markup Language) is a way to structure and store data in a text-based format. It uses tags to define elements and their relationships, making it easy to represent structured data. Here's a basic explanation of parsing XML in Python 3:
+
+**XML**: 
+- XML is like a language for organizing information.
+- It uses tags enclosed in angle brackets (`<tag>`) to define elements.
+- Elements can have attributes (additional information) inside the tags.
+- Elements can be nested within each other to create a hierarchy.
+
+**Parsing XML in Python**:
+- Parsing XML means reading an XML document and extracting information from it.
+- Python provides libraries like `xml.etree.ElementTree` and `xml.dom.minidom` for XML parsing.
+- The process involves opening and reading an XML file or string, then navigating through the elements to access the data you need.
+
+Here's a simple example using `xml.etree.ElementTree`:
+
+```python
+import xml.etree.ElementTree as ET
+
+# Sample XML data
+xml_data = '''
+<data>
+    <item>
+        <name>Apple</name>
+        <price>1.00</price>
+    </item>
+    <item>
+        <name>Banana</name>
+        <price>0.50</price>
+    </item>
+</data>
+'''
+
+# Parse the XML data
+root = ET.fromstring(xml_data)
+
+# Access and print information
+for item in root.findall('item'):
+    name = item.find('name').text
+    price = float(item.find('price').text)
+    print(f"Item: {name}, Price: ${price:.2f}")
+```
+
+In this example:
+- We create a sample XML data string.
+- We use `ET.fromstring()` to parse it and get the root element.
+- We then use `find()` and `.text` to access the data inside the XML elements and print it.
+
+This is a basic example of how you can parse XML data in Python to extract and work with structured information. You can adapt this approach for more complex XML documents and real-world scenarios.
+
+### XSD
+In simple terms, XSD stands for XML Schema Definition. It's a way to define the structure and constraints of XML data. XSD serves as a blueprint or a set of rules that describe what valid XML data should look like. It's often used to ensure that XML documents conform to a specific structure and data format.
+
+Here's a simple example to illustrate XSD and data parsing in Python 3:
+
+Suppose you have an XSD schema that defines the structure of a simple XML document representing information about books:
+
+```xml
+<!-- books.xsd -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="book">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="title" type="xs:string"/>
+        <xs:element name="author" type="xs:string"/>
+        <xs:element name="published" type="xs:date"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+```
+
+In this XSD schema:
+
+- We define an XML element called "book."
+- Inside "book," we specify that it should contain "title," "author," and "published" elements in that order.
+- We also specify the data types for each element (e.g., "title" and "author" should be strings, and "published" should be a date).
+
+Now, let's say you have an XML document (`books.xml`) that follows this schema:
+
+```xml
+<!-- books.xml -->
+<book>
+  <title>Python Programming</title>
+  <author>John Doe</author>
+  <published>2023-10-30</published>
+</book>
+```
+
+To parse this XML data in Python 3 and validate it against the XSD schema, you can use the `lxml` library, which provides support for XML parsing and validation:
+
+```python
+from lxml import etree
+
+# Load the XSD schema
+xsd_schema = etree.XMLSchema(file="books.xsd")
+
+# Load and parse the XML document
+xml_doc = etree.parse("books.xml")
+
+# Validate the XML document against the XSD schema
+if xsd_schema.validate(xml_doc):
+    print("XML document is valid according to the XSD schema.")
+else:
+    print("XML document is not valid according to the XSD schema.")
+```
+
+In this Python script:
+
+- We load the XSD schema using `etree.XMLSchema`.
+- We load and parse the XML document using `etree.parse`.
+- We validate the XML document against the XSD schema using `xsd_schema.validate`.
+
+If the XML document conforms to the XSD schema, it will be considered valid, and the script will print "XML document is valid according to the XSD schema." Otherwise, it will print "XML document is not valid according to the XSD schema."
