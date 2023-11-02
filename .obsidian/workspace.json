@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "70081786632665d1",
+        "id": "1e086ac74a0002ed",
         "type": "tabs",
         "children": [
           {
-            "id": "07f61ae6fd8af864",
+            "id": "a504f0399ff021e6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Allegiant Giving - Skillbridge/Week 4.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -93,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Allegiant Giving - Skillbridge/Week 4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Allegiant Giving - Skillbridge/Week 4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Allegiant Giving - Skillbridge/Week 4.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -154,10 +146,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "07f61ae6fd8af864",
+  "active": "a504f0399ff021e6",
   "lastOpenFiles": [
-    "Allegiant Giving - Skillbridge/Code Assignments/Joining Tables.md",
+    "Allegiant Giving - Skillbridge/Code Assignments/Many-Many Relationships in SQL.md",
     "Allegiant Giving - Skillbridge/Week 4.md",
+    "Allegiant Giving - Skillbridge/Code Assignments/Joining Tables.md",
     "Allegiant Giving - Skillbridge/Week 2.md",
     "Allegiant Giving - Skillbridge/Week 3.md",
     "Allegiant Giving - Skillbridge/Code Assignments/Counting in SQL with Python.md",
@@ -191,7 +184,6 @@
     "Vet Tec Study Notes/Networking",
     "Web Development/CSS/CSS.md",
     "2023-09-11.md",
-    "Pasted image 20230403191154.png.md",
     "Pasted image 20230403191154.png",
     "Pasted image 20230403191111.png",
     "Untitled.canvas"
