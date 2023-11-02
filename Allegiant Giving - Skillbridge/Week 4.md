@@ -1,6 +1,6 @@
 # Courses
-1. [Programming For Everybody (Using Python to Access Web Data)](https://www.coursera.org/learn/python-network-data)
-2. [Something](https://www.coursera.org/learn/python-databases)
+1. [Python for Everybody (Using Python to Access Web Data)](https://www.coursera.org/learn/python-network-data)
+2. [Python for Everybody (Using Databases with Python)](https://www.coursera.org/learn/python-databases)
 
 ## 12.3 - Unicode Characters and Strings
 In simple terms, Unicode characters and strings in Python 3 allow you to work with a wide range of characters and symbols from various languages and writing systems, making it easier to handle text in a global context.
@@ -531,4 +531,170 @@ Three major Database Management Systems in wide use:
 - SqlServer - Very nice - from Microsoft (also Access)
 Many other smaller projects, free and open source
 - HSQL, SQLite, Postgress, ...
+
+## 15.3 - Single Table CRUD
+CRUD is an acronym that stands for Create, Read, Update, and Delete. It represents the four fundamental operations that can be performed on data within a relational database system:
+
+1. **Create**: This operation involves adding new data or records to a database. In simple terms, it's like inserting a new row into a table. For example, you might create a new customer record in a database by adding their name, contact information, and other details.
+
+2. **Read**: Reading refers to retrieving or querying data from the database. You can think of it as looking up information that already exists in the database. For instance, you might read or retrieve all the product names and prices from a product catalog.
+
+3. **Update**: Updating allows you to modify existing data in the database. You might use this operation to change the address of a customer, update the quantity of a product in inventory, or edit any other information that needs modification.
+
+4. **Delete**: Deletion is the process of removing data or records from the database. It's like erasing a row from a table. For example, you might delete a customer record if they are no longer associated with your business.
+
+These CRUD operations are essential for interacting with and managing data in a relational database. They provide a way to create, retrieve, modify, and delete information, allowing you to maintain and manipulate the data stored in your database system.
+### SQL and Common Commands
+SQL (Structured Query Language) is a language used to manage and manipulate relational databases. In simple terms, SQL is like a set of instructions you give to a database to perform tasks like storing, retrieving, updating, and deleting data. Here are some common SQL commands explained in simple terms:
+
+1. **SELECT**: This command is used to retrieve data from a database. You specify which columns you want to retrieve and from which table.
+
+   Example:
+   ```sql
+   SELECT first_name, last_name FROM employees;
+   ```
+
+2. **INSERT**: Use this command to add new data (rows) to a table.
+
+   Example:
+   ```sql
+   INSERT INTO customers (first_name, last_name, email) VALUES ('John', 'Doe', 'john@example.com');
+   ```
+
+3. **UPDATE**: This command is used to modify existing data in a table.
+
+   Example:
+   ```sql
+   UPDATE products SET price = 15.99 WHERE id = 123;
+   ```
+
+4. **DELETE**: Use this command to remove data (rows) from a table.
+
+   Example:
+   ```sql
+   DELETE FROM orders WHERE order_id = 456;
+   ```
+
+5. **CREATE TABLE**: This command is used to define a new table and its columns.
+
+   Example:
+   ```sql
+   CREATE TABLE students (
+       student_id INT PRIMARY KEY,
+       first_name VARCHAR(50),
+       last_name VARCHAR(50),
+       age INT
+   );
+   ```
+
+6. **ALTER TABLE**: Use this command to modify an existing table structure, such as adding or deleting columns.
+
+   Example:
+   ```sql
+   ALTER TABLE employees ADD COLUMN department VARCHAR(100);
+   ```
+
+7. **DROP TABLE**: This command removes an entire table and all its data.
+
+   Example:
+   ```sql
+   DROP TABLE customers;
+   ```
+
+8. **SELECT with WHERE**: You can add a `WHERE` clause to a `SELECT` statement to filter data based on a specified condition.
+
+   Example:
+   ```sql
+   SELECT product_name, price FROM products WHERE category = 'Electronics';
+   ```
+
+9. **JOIN**: When you have multiple tables with related data, you can use `JOIN` to combine data from those tables based on a common column.
+
+   Example:
+   ```sql
+   SELECT orders.order_id, customers.first_name
+   FROM orders
+   JOIN customers ON orders.customer_id = customers.customer_id;
+   ```
+
+These are some of the fundamental SQL commands. SQL allows you to interact with databases, retrieve specific data, modify records, and structure your data efficiently for various applications like web applications, business systems, and data analysis.
+
+## 15.4 - Designing a Data Model
+- Drawing a picture of the data objects for our application and then figuring out how to represent the objects and their relationships
+- **Basic Rule: Don't put the same string data in twice - use a relationship instead**
+- When there is one thing in the "real world" there should be one copy of that thing in the database
+### Database Design
+- Is an art form of its own with particular skills and experience
+- Our goal is to avoid the really bad mistakes and design clean and easily understood databases
+- Others may performance tune things later
+- Database design starts with a picture...
+
+### Representing a Data Model in Tables
+In the context of relational databases and representing data models in tables:
+
+1. **Primary Keys**:
+   - **Use**: Primary keys are unique identifiers for each row (record) in a table. They ensure that each row in the table is distinct and can be uniquely identified.
+   - **Example**: In a table of "Students," each student might have a unique student ID as the primary key.
+   - **Purpose**: Primary keys help in data integrity, data retrieval, and establishing relationships between tables (via foreign keys).
+
+2. **Logical Keys**:
+   - **Use**: Logical keys are identifiers that have a meaningful business or logical significance but may not necessarily be unique. They help in organizing and querying data.
+   - **Example**: In an "Employees" table, a logical key could be the employee's email address, which is unique within the organization but not globally unique.
+   - **Purpose**: Logical keys provide a human-readable way to access data and often have business relevance.
+
+3. **Foreign Keys**:
+   - **Use**: Foreign keys are attributes in a table that refer to the primary key of another table. They establish relationships between tables in a relational database.
+   - **Example**: In a "Orders" table, there might be a foreign key column that references the primary key (e.g., order ID) of a "Customers" table, indicating which customer placed the order.
+   - **Purpose**: Foreign keys maintain data integrity and enforce referential integrity constraints. They ensure that data in related tables is consistent and that records can be linked together.
+
+In summary:
+- **Primary keys** uniquely identify each row in a table.
+- **Logical keys** are meaningful identifiers but not necessarily unique.
+- **Foreign keys** establish relationships between tables by referencing primary keys in other tables, ensuring data consistency and enabling data retrieval across related tables.
+
+#### Relational Power
+By removing the replicated data and replacing it with references to a single copy of each bit of data we build a "web" of information that the relational database can read through very quickly - even for very large amounts of data
+
+- Often when you want some data it comes from a number of tables linked by these **foreign keys**.
+
+### Implementing a Data Model
+
+```SQL
+CREATE TABLE Album (
+	id        INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT UNIQUE,
+	artist_id INTEGER,
+	title     TEXT
+)
+
+CREATE TABLE Track (
+	id       INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT UNIQUE,
+	title    TEXT,
+	album_id INTEGER,
+	genre_id INTEGER,
+	len      INTEGER,
+	rating   INTEGER,
+	count    INTEGER
+)
+```
+
+### Inserting Relational Data
+
+Single Values
+```SQL
+INSERT INTO Artist (name) VALUES ('Led Zepplin')
+
+INSERT INTO Genre (name) VALUES ('Rock')
+```
+
+Multiple Values
+```SQL
+INSERT INTO Album (title, artist_id) VALUES ('Who Made Who', 2)
+```
+
+## 15.7 - Reconstructing Data with JOIN
+
+The JOIN operation **links across several tables** as part of a select operation
+
+You must tell the JOIN how to use the keys that make the connection between the tables using an ON clause.
+- If you don't use an ON clause, then ALL COMBINATIONS are combined. Essentially number of data from one table multiplied by the other table
 

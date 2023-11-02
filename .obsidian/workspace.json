@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "6f6502051ece6ac0",
+        "id": "70081786632665d1",
         "type": "tabs",
         "children": [
           {
-            "id": "056a9674a7c1d53c",
+            "id": "07f61ae6fd8af864",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Allegiant Giving - Skillbridge/Week 4.md",
+                "file": "Allegiant Giving - Skillbridge/Code Assignments/Joining Tables.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Allegiant Giving - Skillbridge/Week 4.md",
+                "file": "Allegiant Giving - Skillbridge/Code Assignments/Joining Tables.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Allegiant Giving - Skillbridge/Week 4.md",
+                "file": "Allegiant Giving - Skillbridge/Code Assignments/Joining Tables.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Allegiant Giving - Skillbridge/Week 4.md"
+                "file": "Allegiant Giving - Skillbridge/Code Assignments/Joining Tables.md"
               }
             }
           }
@@ -154,19 +154,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3d0a72f3eb8b65ec",
+  "active": "07f61ae6fd8af864",
   "lastOpenFiles": [
+    "Allegiant Giving - Skillbridge/Week 4.md",
+    "Allegiant Giving - Skillbridge/Code Assignments/Joining Tables.md",
+    "Allegiant Giving - Skillbridge/Week 2.md",
+    "Allegiant Giving - Skillbridge/Week 3.md",
+    "Allegiant Giving - Skillbridge/Code Assignments/Counting in SQL with Python.md",
     "Allegiant Giving - Skillbridge/Code Assignments/Using APIs in Python 3.md",
     "Allegiant Giving - Skillbridge/Code Assignments/Web Scraping JSON data.md",
     "Allegiant Giving - Skillbridge/Code Assignments/Parsing Websites in XML.md",
     "Allegiant Giving - Skillbridge/Code Assignments/Loops and Web Scraping.md",
     "Allegiant Giving - Skillbridge/Code Assignments/Web Scraping with BeautifulSoup.md",
-    "Allegiant Giving - Skillbridge/Week 3.md",
     "Allegiant Giving - Skillbridge/Code Assignments/Sockets in Python 3.md",
     "Allegiant Giving - Skillbridge/Code Assignments/Reading Files Parsing w REGEX.md",
     "Allegiant Giving - Skillbridge/Code Assignments/Untitled",
-    "Allegiant Giving - Skillbridge/Week 2.md",
-    "Allegiant Giving - Skillbridge/Week 4.md",
     "Allegiant Giving - Skillbridge/Code Assignments",
     "Allegiant Giving - Skillbridge/Week 1.md",
     "Codecademy/Computer Science Track/Python Programming.md",
@@ -192,7 +194,6 @@
     "Pasted image 20230403191154.png.md",
     "Pasted image 20230403191154.png",
     "Pasted image 20230403191111.png",
-    "Untitled.canvas",
-    "2023-04-03.md"
+    "Untitled.canvas"
   ]
 }

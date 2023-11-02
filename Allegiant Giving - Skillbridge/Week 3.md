@@ -1,7 +1,7 @@
 # Courses
-1. [Programming For Everybody (Getting Started With Python)](https://www.coursera.org/learn/python/)
-2. [Programming For Everybody (Python Data Structures)](https://www.coursera.org/learn/python-data/)
-3. [Programming For Everybody (Using Python to Access Web Data)](https://www.coursera.org/learn/python-network-data)
+1. [Python For Everybody (Programming For Everybody (Getting Started With Python))](https://www.coursera.org/learn/python/)
+2. [Python For Everybody (Python Data Structures)](https://www.coursera.org/learn/python-data/)
+3. [Python For Everybody (Using Python to Access Web Data)](https://www.coursera.org/learn/python-network-data)
 
 ## 2.1 - Expressions
 In simple terms, a Python expression is like a small piece of code that produces a value or result. It's a combination of variables, operators, and functions that you can use to perform calculations or manipulate data. When you write and run an expression in Python, it typically returns a single value.
