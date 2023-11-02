@@ -1,6 +1,6 @@
 # Courses
 1. [Programming For Everybody (Using Python to Access Web Data)](https://www.coursera.org/learn/python-network-data)
-
+2. [Something](https://www.coursera.org/learn/python-databases)
 
 ## 12.3 - Unicode Characters and Strings
 In simple terms, Unicode characters and strings in Python 3 allow you to work with a wide range of characters and symbols from various languages and writing systems, making it easier to handle text in a global context.
@@ -422,3 +422,113 @@ In simple terms, **REST (Representational State Transfer)** and **SOAP (Simple O
    - **SOAP**: Provides built-in security features like WS-Security, which can be useful in enterprise-level applications.
 
 In summary, REST is often preferred for its simplicity, speed, and widespread use in web and mobile applications. SOAP, on the other hand, is commonly used in enterprise-level systems where strict standards and reliability are crucial, even though it comes with additional complexity. The choice between REST and SOAP depends on the specific needs and constraints of a given project or system.
+
+## 14.1 - Object Oriented Definitions and Terminology
+Object-Oriented Programming (OOP) is a programming paradigm that organizes code into objects, which are instances of classes. It's a way of structuring and designing code to model real-world entities, making it more modular, reusable, and easier to maintain.
+
+In simple terms, here's what OOP entails:
+
+1. **Objects**: Objects are instances of classes, and they represent real-world entities or concepts. These objects have attributes (properties) and methods (functions) that define their behavior.
+
+2. **Classes**: Classes serve as blueprints for creating objects. They define the structure (attributes) and behavior (methods) that objects of that class should have.
+
+3. **Encapsulation**: Encapsulation is the concept of bundling data (attributes) and the methods (functions) that operate on that data into a single unit (an object). It allows you to control access to the internal state of an object.
+
+4. **Inheritance**: Inheritance allows you to create new classes (child or subclass) based on existing classes (parent or superclass). The child class inherits attributes and methods from the parent class and can also have its own unique attributes and methods.
+
+5. **Polymorphism**: Polymorphism enables different objects to respond to the same method or function call in a way that's appropriate for their specific class. It allows you to write more generic and flexible code.
+
+In Python 3, OOP is implemented using classes and objects. Here's a simple example to illustrate how OOP is used in Python:
+
+```python
+# Define a class
+class Dog:
+    def __init__(self, name, breed):
+        self.name = name
+        self.breed = breed
+
+    def bark(self):
+        print(f"{self.name} says Woof!")
+
+# Create objects (instances) of the class
+dog1 = Dog("Buddy", "Golden Retriever")
+dog2 = Dog("Charlie", "Poodle")
+
+# Access attributes and call methods of objects
+print(f"{dog1.name} is a {dog1.breed}.")
+dog2.bark()
+```
+
+In this example:
+
+- We define a class called `Dog`, which has attributes (`name` and `breed`) and a method (`bark`).
+- We create two instances of the `Dog` class (`dog1` and `dog2`) with different attribute values.
+- We access attributes (`name` and `breed`) and call the `bark` method on the objects.
+
+This demonstrates the fundamental concepts of OOP in Python: classes, objects, attributes, and methods, allowing you to model and manipulate objects with ease, making your code more organized and reusable.
+
+## 15.1 - Relational Databases
+In simple terms, a relational database in Python 3 is a structured and organized way to store and manage large amounts of data, where the data is organized into tables with rows and columns. It's called "relational" because it maintains relationships between different pieces of data.
+
+Here are some key points to understand:
+
+1. **Tables**: Data is stored in tables, which are similar to spreadsheets. Each table has rows and columns. Rows represent individual records or data entries, and columns represent different attributes or properties of those records.
+
+2. **SQL**: Relational databases are typically managed using a language called SQL (Structured Query Language). You use SQL commands to create, retrieve, update, and delete data from the database. Python provides libraries and modules like SQLAlchemy and sqlite3 to interact with relational databases using SQL.
+
+3. **Data Integrity**: Relational databases enforce data integrity through constraints. This means you can define rules that ensure the data in the database remains accurate and consistent. For example, you can specify that a certain column should only contain unique values or that a column cannot be left empty (a constraint called "NOT NULL").
+
+4. **Relationships**: You can establish relationships between tables. For example, you can have one table that stores information about customers and another table that stores their orders. By using keys (like customer IDs), you can link records in these tables to represent that each order is associated with a specific customer.
+
+5. **ACID Properties**: Relational databases follow the ACID (Atomicity, Consistency, Isolation, Durability) properties to ensure data reliability and transactional consistency. This means that database operations are guaranteed to be reliable and maintain the integrity of the data.
+
+Here's a simple example using Python's built-in SQLite database:
+
+```python
+import sqlite3
+
+# Connect to a SQLite database (or create one if it doesn't exist)
+connection = sqlite3.connect('mydatabase.db')
+
+# Create a cursor to interact with the database
+cursor = connection.cursor()
+
+# Create a table to store data
+cursor.execute('''CREATE TABLE IF NOT EXISTS students (
+                    id INTEGER PRIMARY KEY,
+                    name TEXT,
+                    age INTEGER
+                )''')
+
+# Insert data into the table
+cursor.execute("INSERT INTO students (name, age) VALUES (?, ?)", ("Alice", 25))
+
+# Retrieve data from the table
+cursor.execute("SELECT * FROM students")
+data = cursor.fetchall()
+for row in data:
+    print("ID:", row[0])
+    print("Name:", row[1])
+    print("Age:", row[2])
+
+# Commit changes and close the connection
+connection.commit()
+connection.close()
+```
+
+In this example, we create a SQLite database, define a table called "students," insert data, retrieve data, and follow the ACID properties to maintain data integrity. This demonstrates the basic concepts of working with a relational database in Python 3.
+
+### Database Administrator (dba)
+A person responsible for the design, implementation, maintenance, and repair of an organization's database. The role includes the development and design of database strategies, monitoring and improving database performance and capacity, and planning for future expansion requirements. They may also plan, coordinate, and implement security measures to safeguard the database.
+
+### Database Model
+A database model or database schema is the structure or format of a database, described in a formal language supported by the database management system, in other words, a "database model" is the application of a data model  when used in conjunction with a database management system.
+
+### Common Database Systems
+Three major Database Management Systems in wide use:
+- Oracle - Large, commercial, enterprise-scale, very very tweakable
+- MySQL - Simpler but very fast and scalable - commercial open source
+- SqlServer - Very nice - from Microsoft (also Access)
+Many other smaller projects, free and open source
+- HSQL, SQLite, Postgress, ...
+
