@@ -698,3 +698,31 @@ The JOIN operation **links across several tables** as part of a select operation
 You must tell the JOIN how to use the keys that make the connection between the tables using an ON clause.
 - If you don't use an ON clause, then ALL COMBINATIONS are combined. Essentially number of data from one table multiplied by the other table
 
+## 15.8 - Many-Many Relationships
+Sometimes we need to model a relationship that is many-many. We need to add a "connection" table with two foreign keys. **There is usually no separate primary key.**
+
+### Creating the Tables
+```SQL
+CREATE TABLE User (
+	id    INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT UNIQUE,
+	NAME  TEXT,
+	email TEXT
+)
+
+CREATE TABLE Course (
+	id    INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT UNIQUE,
+	title TEXT
+)
+
+CREATE TABLE Member (
+	user_id   INTEGER,
+	course_id INTEGER,
+	role      INTEGER,
+	PRIMARY KEY (user_id, course_id)
+)
+```
+
+### Retrieving data from the Tables
+```SQL
+SELECT User.name, Member.role, Course.title FROM User JOIN Member JOIN Course ON Member.user_id = User.id AND Member.course_id = Course.id ORDER BY Course.title, Member.role DESC, User.name
+```
