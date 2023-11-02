@@ -726,3 +726,11 @@ CREATE TABLE Member (
 ```SQL
 SELECT User.name, Member.role, Course.title FROM User JOIN Member JOIN Course ON Member.user_id = User.id AND Member.course_id = Course.id ORDER BY Course.title, Member.role DESC, User.name
 ```
+
+## Multi-Step Data Analysis
+Multi-Step Data Analysis applies to how your raw data source is handled from the beginning of your project to the end.
+
+Steps:
+1. Gather
+2. Clean/Process
+3. Visualize and/or Analyze
