@@ -1,6 +1,7 @@
 # Courses
 1. [Python for Everybody (Using Python to Access Web Data)](https://www.coursera.org/learn/python-network-data)
 2. [Python for Everybody (Using Databases with Python)](https://www.coursera.org/learn/python-databases)
+3. [Google IT Automation with Python](https://www.coursera.org/learn/python-crash-course)
 
 ## 12.3 - Unicode Characters and Strings
 In simple terms, Unicode characters and strings in Python 3 allow you to work with a wide range of characters and symbols from various languages and writing systems, making it easier to handle text in a global context.
@@ -734,3 +735,60 @@ Steps:
 1. Gather
 2. Clean/Process
 3. Visualize and/or Analyze
+
+# Google IT Automation Course
+## Introduction to Programming
+
+- **Programming code** - Programming code is a set of written computer instructions, guided by rules, using a computer programming language. It might help to think of the computer instructions as a detailed, step-by-step recipe for performing tasks. The instructions tell computers and machines how to perform an action. Programming code may also be referred to as source code or scripts.
+
+- **Programming languages** - Programming languages are similar to human spoken languages in that they both use syntax and semantics. Programming languages are used to write computer programs.  Some common programming languages include Python, Java, C, C++, C#, and R.
+
+- **Syntax** - Syntax is a set of rules for how statements are constructed in both human and computer languages. Programming syntax includes rules for the order of elements in programming instructions, as well as the use of special characters and their placements in statements. This concept is similar to the syntax rules for grammar and punctuation in human language.
+
+- **Semantics** - Semantics refers to the intended meaning or effect of statements, or collections of words, in both human and computer languages. Semantic errors are also referred to as logical errors.
+
+- **Computer program** - A computer program is a step-by-step list of instructions that a computer follows to reach an intended goal. It is important to be clear and precise about the actions a computer program is supposed to perform because computers will do exactly what they are instructed to do. Computer programs can be long, complex, and accomplish a variety of tasks. They are often developed by computer programmers and software engineers, but anyone can learn to create them. Computer programs may involve a structured development cycle. They can be written in a wide variety of programming languages, such as Python, Java, C++,  R, and more. The completed format of a program is often a single executable file.
+
+- **Script** - Scripts are usually shorter and less complex than computer programs. Scripts are often used to automate specific tasks. However, they can be used for complex tasks if needed. Scripts are often written by IT professionals, but anyone can learn to write scripts. Scripts have a shorter, less structured development cycle as compared to the development of complex computer programs and software. Scripts can be written in a variety of programming languages, like Python, JavaScript, Ruby, Bash, and more. Some scripting languages are interpreted languages and are only compatible with certain platforms.
+
+- **Automation** - Automation is used to replace a repetitive manual step with one that happens automatically. 
+
+- **Output** - Output is the end result of a task performed by a function or computer program. Output can include a single value, a report, entries into a database, and more. 
+
+- **Input** - Input is information that is provided to a program by the end user. Input can be text, voice, images, biometrics, and more.   
+
+- **Functions** - A function is a reusable block of code that performs a specific task.
+
+- **Variables** - Variables are used to temporarily store changeable values in programming code.
+
+- **Platform-specific / OS specific scripting language** - Platform-specific scripting languages, like PowerShell (for Windows) and Bash (for Linux), are used by system administrators on those platforms. 
+
+- **Client-side scripting language** - Client-side scripting languages, like JavaScript, are used mostly for web programming. The scripts are transferred from a web server to the end-user’s internet browser, then executed in the browser.
+
+- **Machine language** - Machine language is the lowest-level computer language. It communicates directly with computing machines in binary code (ones and zeros). In binary code, one equals a pulse of electricity and zero equals no electrical pulse. Machine language instructions are made from translating languages like Python into complex patterns of ones and zeros. 
+
+- **Cross-platform** **language** - Programming language that is compatible with one or more platforms / operating systems (e.g., Windows, Linux, Mac, iOS, Android).
+
+- **Object-oriented programming language** - In object-oriented programming languages, most coding elements are considered to be objects with configurable properties. For example, a form field is an object that can be configured to accept only dates as input in the mm/dd/yy format, and can be configured to read from and write to a specific database. 
+
+- **Python interpreter -** An interpreter is the program that reads and executes Python code by translating Python code into computer instructions.
+
+- **Built-in functions:** Functions that exist within Python and can be called directly
+
+- **Comments:** Notes to yourself and/or other programmers to make the purpose of the code clear
+
+- **Data types:** Classes of data (e.g., string, int, float, Boolean, etc.), which include the properties and behaviors of instances of the data type (variables)
+
+- **Explicit conversion:** This occurs when code is written to manually convert one data type to another using a data type conversion function
+
+- **Expression:** A combination of numbers, symbols, or other values that produce a result when evaluated
+
+- **Implicit conversion:** This occurs when the Python interpreter automatically converts one data type to another
+
+- **Logical operators:** Operators used to combine or manipulate Boolean values, `True` or `False`, to create complex conditions for decision-making. 
+
+- **Parameter (argument):** A value passed into a function for use within the function, controlling the behavior of the CSV reader and writer
+
+- **Refactoring:** When a code is updated to be more self-documenting and clarify the intent 
+
+- **Return value**: This is the value or variable returned as the end result of a function
