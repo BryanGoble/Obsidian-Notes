@@ -1,7 +1,7 @@
 # Courses
 1. [Python for Everybody (Using Python to Access Web Data)](https://www.coursera.org/learn/python-network-data)
 2. [Python for Everybody (Using Databases with Python)](https://www.coursera.org/learn/python-databases)
-3. [Google IT Automation with Python](https://www.coursera.org/learn/python-crash-course)
+3. [Google IT Automation with Python (Course 1)](https://www.coursera.org/learn/python-crash-course)
 
 ## 12.3 - Unicode Characters and Strings
 In simple terms, Unicode characters and strings in Python 3 allow you to work with a wide range of characters and symbols from various languages and writing systems, making it easier to handle text in a global context.

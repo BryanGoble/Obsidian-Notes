@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "1e086ac74a0002ed",
+        "id": "433628e91bd7bc36",
         "type": "tabs",
         "children": [
           {
-            "id": "a504f0399ff021e6",
+            "id": "64b40a88ad3a048e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Allegiant Giving - Skillbridge/Week 4.md",
+                "file": "Allegiant Giving - Skillbridge/Week 5.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Allegiant Giving - Skillbridge/Week 4.md",
+                "file": "Allegiant Giving - Skillbridge/Week 5.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Allegiant Giving - Skillbridge/Week 4.md",
+                "file": "Allegiant Giving - Skillbridge/Week 5.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Allegiant Giving - Skillbridge/Week 4.md"
+                "file": "Allegiant Giving - Skillbridge/Week 5.md"
               }
             }
           }
@@ -154,10 +154,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a504f0399ff021e6",
+  "active": "64b40a88ad3a048e",
   "lastOpenFiles": [
-    "Codecademy/Computer Science Track/Python Programming.md",
+    "Allegiant Giving - Skillbridge/Code Assignments/Handling Files.md",
+    "Allegiant Giving - Skillbridge/Week 1.md",
+    "Allegiant Giving - Skillbridge/Week 5.md",
     "Allegiant Giving - Skillbridge/Week 4.md",
+    "Codecademy/Computer Science Track/Python Programming.md",
     "Allegiant Giving - Skillbridge/Code Assignments/Many-Many Relationships in SQL.md",
     "Allegiant Giving - Skillbridge/Code Assignments/Joining Tables.md",
     "Allegiant Giving - Skillbridge/Week 2.md",
@@ -172,7 +175,6 @@
     "Allegiant Giving - Skillbridge/Code Assignments/Reading Files Parsing w REGEX.md",
     "Allegiant Giving - Skillbridge/Code Assignments/Untitled",
     "Allegiant Giving - Skillbridge/Code Assignments",
-    "Allegiant Giving - Skillbridge/Week 1.md",
     "Software Development Methodologies.md",
     "ExamPro/Terraform Cloud Project Beginner Bootcamp/Week 0 (Prep).md",
     "Allegiant Giving - Skillbridge",
@@ -190,8 +192,6 @@
     "New Text Document.txt",
     "2023-09-12.md",
     "Vet Tec Study Notes/Networking",
-    "Web Development/CSS/CSS.md",
-    "2023-09-11.md",
     "Pasted image 20230403191154.png",
     "Pasted image 20230403191111.png",
     "Untitled.canvas"
