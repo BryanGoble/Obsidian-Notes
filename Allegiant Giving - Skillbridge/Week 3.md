@@ -565,11 +565,63 @@ In this example:
 
 - We loop through the matches and print each email address found in the text.
 
+- `.search()` and `.match()` are two functions provided by the `re` module for working with regular expressions (regex).
+
+1. **`.search()` Function**:
+
+   - **Purpose**: The `.search()` function is used to search for a pattern within a string. It looks for the first occurrence of the pattern in the string and returns a match object if found.
+   
+   - **Usage**: You provide the regex pattern you want to find as the first argument, and the string you want to search in as the second argument.
+
+   - **Example**:
+     ```python
+     import re
+
+     text = "Hello, my email is example@email.com"
+     pattern = r"\w+@\w+\.\w+"
+
+     match = re.search(pattern, text)
+
+     if match:
+         print("Email found:", match.group())
+     else:
+         print("Email not found")
+     ```
+
+   - **Explanation**: In this example, `.search()` looks for an email pattern within the `text` string. It finds the first occurrence of an email address and returns a match object. We then use `match.group()` to retrieve the matched email address.
+
+2. **`match()` Function**:
+
+   - **Purpose**: The `.match()` function checks if a pattern matches at the beginning of a string. It only returns a match if the pattern is found at the start of the string.
+   
+   - **Usage**: Like `.search()`, you provide the regex pattern as the first argument, but `.match()` is typically used when you want to check if a string starts with a specific pattern.
+
+   - **Example**:
+     ```python
+     import re
+
+     text = "apple banana cherry"
+     pattern = r"apple"
+
+     match = re.match(pattern, text)
+
+     if match:
+         print("Pattern found at the beginning of the string")
+     else:
+         print("Pattern not found at the beginning of the string")
+     ```
+
+   - **Explanation**: In this example, `.match()` checks if the `text` string starts with the word "apple." Since it does, the function returns a match object, and we print that the pattern was found at the beginning of the string.
+
+In summary:
+- `.search()` searches for a pattern anywhere in the string and returns the first match found.
+- `.match()` checks if the pattern matches only at the beginning of the string. It returns a match if the pattern is at the start of the string.
+
 Regular expressions can become quite complex for advanced tasks, but they're incredibly useful for text processing and searching when you need to work with specific patterns in your data.
 
 Python Regular Expression Quick Guide
 
-^        Matches the beginning of a line
+^        Matches the beginning of a line **or** doesn't match the following characters or symbols
 $        Matches the end of the line
 .        Matches any character
 \s       Matches whitespace
@@ -585,7 +637,9 @@ $        Matches the end of the line
 [a-z0-9] The set of characters can include a range
 (        Indicates where string extraction is to start
 )        Indicates where string extraction is to end
-
+|        Match either item on each side of the pipe
+`\`       Escapes special characters to match a search like ".com"
+`{ }`   Curly braces represent repetition. 
 ## 12.1 - Networked Technology
 1. TCP Connections / Sockets - In computer networking, an Internet socket or network socket is an endpoint of a bidirectional inter-process communication flow across an Internet Protocol-based computer network, such as the Internet.
 2. TCP Ports
