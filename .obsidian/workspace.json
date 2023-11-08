@@ -11,8 +11,12 @@
             "id": "079dbddf374e3190",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Allegiant Giving - Skillbridge/Week 5.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -89,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Allegiant Giving - Skillbridge/Week 5.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Allegiant Giving - Skillbridge/Week 5.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Allegiant Giving - Skillbridge/Week 5.md"
+              }
             }
           }
         ]
@@ -148,11 +156,12 @@
   },
   "active": "079dbddf374e3190",
   "lastOpenFiles": [
-    "Allegiant Giving - Skillbridge/Code Assignments/Working with Regular Expressions.md",
-    "Allegiant Giving - Skillbridge/Code Assignments/Handling Files.md",
+    "Allegiant Giving - Skillbridge/Code Assignments/Working with Log Files.md",
     "Allegiant Giving - Skillbridge/Week 3.md",
     "Allegiant Giving - Skillbridge/Week 4.md",
     "Allegiant Giving - Skillbridge/Week 5.md",
+    "Allegiant Giving - Skillbridge/Code Assignments/Working with Regular Expressions.md",
+    "Allegiant Giving - Skillbridge/Code Assignments/Handling Files.md",
     "Allegiant Giving - Skillbridge/Week 1.md",
     "Codecademy/Computer Science Track/Python Programming.md",
     "Allegiant Giving - Skillbridge/Code Assignments/Many-Many Relationships in SQL.md",
@@ -180,7 +189,6 @@
     "ExamPro/Terraform Cloud Project Beginner Bootcamp",
     "ExamPro",
     "Cheatsheets",
-    "Homelab/Docker.md",
     "Homelab",
     "New Text Document.txt",
     "Vet Tec Study Notes/Networking",
