@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Allegiant Giving - Skillbridge/Week 5.md",
+                "file": "Allegiant Giving - Skillbridge/Code Assignments/Implementing Unit Testing.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Allegiant Giving - Skillbridge/Week 5.md",
+                "file": "Allegiant Giving - Skillbridge/Code Assignments/Implementing Unit Testing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Allegiant Giving - Skillbridge/Week 5.md",
+                "file": "Allegiant Giving - Skillbridge/Code Assignments/Implementing Unit Testing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Allegiant Giving - Skillbridge/Week 5.md"
+                "file": "Allegiant Giving - Skillbridge/Code Assignments/Implementing Unit Testing.md"
               }
             }
           }
@@ -156,8 +156,9 @@
   },
   "active": "079dbddf374e3190",
   "lastOpenFiles": [
-    "Allegiant Giving - Skillbridge/Code Assignments/Working with Regular Expressions.md",
     "Allegiant Giving - Skillbridge/Week 5.md",
+    "Allegiant Giving - Skillbridge/Code Assignments/Implementing Unit Testing.md",
+    "Allegiant Giving - Skillbridge/Code Assignments/Working with Regular Expressions.md",
     "Allegiant Giving - Skillbridge/Code Assignments/Working with Log Files.md",
     "Allegiant Giving - Skillbridge/Week 3.md",
     "Allegiant Giving - Skillbridge/Week 4.md",
@@ -185,7 +186,6 @@
     "Vet Tec Study Notes/Networking.md",
     "Vet Tec Study Notes/Interviews.md",
     "README.md",
-    "Git & GitHub.md",
     "ExamPro/Terraform Cloud Project Beginner Bootcamp",
     "ExamPro",
     "Cheatsheets",
