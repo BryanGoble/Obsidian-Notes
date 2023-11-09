@@ -82,3 +82,53 @@ subprocess.run(["date"])
 # Tue 07 Jan 2023 02:34:44 PM PST
 # CompletedProcess(args=['date'], returncode=0)
 ```
+
+## Unit Tests
+In simple terms, the `unittest` module in Python 3 is a built-in library that helps you write and run test cases for your Python code. It is part of the standard library and provides a framework for organizing and running tests to ensure that your code works as expected.
+
+Here are some key points to understand about the `unittest` module:
+
+1. **Test Cases**: You create test cases by defining classes that inherit from `unittest.TestCase`. Each test case class contains one or more test methods, which are regular Python methods that test specific parts of your code.
+
+2. **Assertions**: Inside your test methods, you use various assertion methods provided by `unittest.TestCase` to check whether your code produces the expected results. Common assertions include `assertEqual`, `assertTrue`, `assertFalse`, and more.
+
+3. **Test Discovery**: The `unittest` framework can automatically discover and run your test cases. It looks for methods that start with the word "test" within your test case classes.
+
+4. **Test Suites**: You can group related test cases into test suites. Test suites help you organize and run multiple test cases together.
+
+5. **Setup and Teardown**: You can use special methods `setUp` and `tearDown` to set up initial conditions before each test method and clean up after each test method, respectively.
+
+6. **Test Runner**: Python includes a built-in test runner that you can use to execute your tests. You can run tests from the command line or integrate them into your development environment.
+
+Here's a simple example of writing and running tests using the `unittest` module:
+
+```python
+import unittest
+
+# Function to be tested
+def add(a, b):
+    return a + b
+
+# Test case class
+class TestAddition(unittest.TestCase):
+
+    def test_add_positive_numbers(self):
+        result = add(2, 3)
+        self.assertEqual(result, 5)
+
+    def test_add_negative_numbers(self):
+        result = add(-2, -3)
+        self.assertEqual(result, -5)
+
+if __name__ == '__main__':
+    unittest.main()
+```
+
+In this example:
+
+- We define a simple function `add` that adds two numbers.
+- We create a test case class `TestAddition` with two test methods, each testing a different scenario for the `add` function.
+- We use the `self.assertEqual` assertion to check if the function produces the expected results.
+- Finally, we run the tests using `unittest.main()`.
+
+The `unittest` module helps you automate the testing process, ensuring that your code behaves correctly, and makes it easier to catch and fix issues as you develop your software.
