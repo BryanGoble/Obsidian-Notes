@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "ebc584203dacd791",
+        "id": "538d3605d23570d1",
         "type": "tabs",
         "children": [
           {
-            "id": "f558e19e4b1530eb",
+            "id": "dff33b01f219ab5a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Allegiant Giving - Skillbridge/Week 5.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -93,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Allegiant Giving - Skillbridge/Week 5.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Allegiant Giving - Skillbridge/Week 5.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Allegiant Giving - Skillbridge/Week 5.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -154,13 +146,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f558e19e4b1530eb",
+  "active": "dff33b01f219ab5a",
   "lastOpenFiles": [
-    "Allegiant Giving - Skillbridge/Code Assignments/Implementing Unit Testing.md",
+    "Allegiant Giving - Skillbridge/Code Assignments/CSV to HTML.md",
+    "Allegiant Giving - Skillbridge/Code Assignments/Log Analysis Using Regular Expressions.md",
+    "Allegiant Giving - Skillbridge/Week 3.md",
     "Allegiant Giving - Skillbridge/Week 5.md",
+    "Allegiant Giving - Skillbridge/Code Assignments/Implementing Unit Testing.md",
     "Allegiant Giving - Skillbridge/Code Assignments/Working with Regular Expressions.md",
     "Allegiant Giving - Skillbridge/Code Assignments/Working with Log Files.md",
-    "Allegiant Giving - Skillbridge/Week 3.md",
     "Allegiant Giving - Skillbridge/Week 4.md",
     "Allegiant Giving - Skillbridge/Code Assignments/Handling Files.md",
     "Allegiant Giving - Skillbridge/Week 1.md",
@@ -184,8 +178,6 @@
     "Codecademy/Computer Science Track/Git.md",
     "Cheatsheets/git-cheat-sheet-education.pdf",
     "Vet Tec Study Notes/Networking.md",
-    "Vet Tec Study Notes/Interviews.md",
-    "README.md",
     "ExamPro/Terraform Cloud Project Beginner Bootcamp",
     "ExamPro",
     "Cheatsheets",
