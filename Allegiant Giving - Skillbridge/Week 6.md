@@ -91,8 +91,8 @@ You can use `git config -l` to review or verify the configuration settings for y
 
 ### Git Cheat Sheet
 
-| -Command- |Explanation & Link|
-|---|---|
+| Command | Explanation & Link |
+| :-----: | -----------------|
 |git commit -a|[Stages files automatically](https://git-scm.com/docs/git-commit#Documentation/git-commit.txt---all)|
 |git log -p|[Produces patch text](https://git-scm.com/docs/git-log#_generating_patch_text_with_p)|
 |git show|[Shows various objects](https://git-scm.com/docs/git-show)|
@@ -114,6 +114,15 @@ You can use `git config -l` to review or verify the configuration settings for y
 |git merge `<branch>`|[Merge joins branches together](https://git-scm.com/docs/git-merge "https://git-scm.com/docs/git-merge").|
 |git merge --abort|If there are merge conflicts (meaning files are incompatible), --abort can be used to abort the merge action.|
 |git log --graph --oneline|[This shows a summarized view of the commit history for a repo](https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History "https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History").|
+|git clone URL|[Git clone is used to clone a remote repository into a local workspace](https://git-scm.com/docs/git-clone)|
+|git push|[Git push is used to push commits from your local repo to a remote repo](https://git-scm.com/docs/git-push)|
+|git pull|[Git pull is used to fetch the newest updates from a remote repository](https://git-scm.com/docs/git-pull)|
+|git remote|[Lists remote repos](https://git-scm.com/docs/git-remote)|
+|git remote -v|[List remote repos verbosely](https://git-scm.com/docs/git-remote#Documentation/git-remote.txt--v)|
+|git remote show `<name>`|[Describes a single remote repo](https://git-scm.com/docs/git-remote#Documentation/git-remote.txt-emshowem)|
+|git remote update|[Fetches the most up-to-date objects](https://git-scm.com/docs/git-remote#Documentation/git-remote.txt-emupdateem)|
+|git fetch|[Downloads specific objects](https://git-scm.com/docs/git-fetch)|
+|git branch -r|[Lists remote branches](https://git-scm.com/docs/git-branch#Documentation/git-branch.txt--r); can be combined with other branch arguments to manage remote branches|
 
 >.gitignore files are used to tell the git tool to intentionally ignore some files in a given Git repository. For example, this can be useful for configuration files or metadata files that a user may not want to check into the master branch. Check out more at: [https://git-scm.com/docs/gitignore](https://git-scm.com/docs/gitignore)
 >
