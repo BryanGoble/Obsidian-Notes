@@ -1,3 +1,8 @@
+---
+tags:
+  - Math
+---
+
 # Courses
 1. [Mathematics for Computer Science](https://www.coursera.org/learn/mathematics-for-computer-science/) (Cont'd)
 

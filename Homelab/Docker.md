@@ -1,3 +1,9 @@
+---
+tags:
+  - Linux
+  - Docker
+---
+
 # Linux Services
 - `systemctl <status|start|stop> docker` - control docker daemon from terminal
 - `dockerd` - used to control docker daemon if systemctl is crashing or causing issues. **Requires admin privileges | sudo**

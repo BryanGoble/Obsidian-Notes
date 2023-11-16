@@ -1,3 +1,9 @@
+---
+tags:
+  - Python
+  - Linux
+---
+
 # Courses
 1. [Google IT Automation with Python (Course 2)](https://www.coursera.org/learn/python-operating-system)
 

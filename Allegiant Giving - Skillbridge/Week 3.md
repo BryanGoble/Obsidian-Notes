@@ -1,3 +1,9 @@
+---
+tags:
+  - Python
+  - Networks
+---
+
 # Courses
 1. [Python For Everybody (Programming For Everybody (Getting Started With Python))](https://www.coursera.org/learn/python/)
 2. [Python For Everybody (Python Data Structures)](https://www.coursera.org/learn/python-data/)

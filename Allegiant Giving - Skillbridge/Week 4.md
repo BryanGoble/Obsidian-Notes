@@ -1,3 +1,10 @@
+---
+tags:
+  - Python
+  - API
+  - SQL
+---
+
 # Courses
 1. [Python for Everybody (Using Python to Access Web Data)](https://www.coursera.org/learn/python-network-data)
 2. [Python for Everybody (Using Databases with Python)](https://www.coursera.org/learn/python-databases)

@@ -1,3 +1,8 @@
+---
+tags:
+  - Git
+---
+
 ## Basic Git Workflow
 - A Git project will normally consist of a basic three parts
 	- A Working Directory: This is where you are doing all the work

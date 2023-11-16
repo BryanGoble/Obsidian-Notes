@@ -1,3 +1,8 @@
+---
+tags:
+  - Networks
+---
+
 - Network - Two or more computer systems linked by a transmission medium to exchange data
 
 # OSI Model

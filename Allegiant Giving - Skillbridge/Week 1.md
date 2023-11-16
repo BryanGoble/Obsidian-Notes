@@ -1,3 +1,9 @@
+---
+tags:
+  - JavaScript
+  - Binary
+---
+
 # Courses
 1. [Introduction to Computer Science and Programming Specialization](https://www.coursera.org/learn/introduction-to-computer-programming/)
 2. [How Computers Work](https://www.coursera.org/learn/how-computers-work)
@@ -424,7 +430,7 @@ Steganography is a method of hiding a secret message within another piece of dat
 
 1. Binary Messages: Binary is a system of representing information using only two symbols, usually 0 and 1. In the context of steganography, a binary message is a series of these 0s and 1s that you want to hide within another piece of data.
     
-2. Hexadecimal Color Values: In digital images, colors are often represented using hexadecimal values. Hexadecimal is a base-16 numbering system that uses the digits 0-9 and the letters A-F to represent values from 0 to 15. Each color in an image is typically described using a combination of red (R), green (G), and blue (B) values, each represented by two hexadecimal digits. For example, the color white is represented as #FFFFFF, where FF stands for the highest intensity of red, green, and blue.
+2. Hexadecimal Color Values: In digital images, colors are often represented using hexadecimal values. Hexadecimal is a base-16 numbering system that uses the digits 0-9 and the letters A-F to represent values from 0 to 15. Each color in an image is typically described using a combination of red (R), green (G), and blue (B) values, each represented by two hexadecimal digits. For example, the color white is represented as `#FFFFFF`, where FF stands for the highest intensity of red, green, and blue.
     
 
 Here's a simple way to use steganography with binary messages and hexadecimal color values:

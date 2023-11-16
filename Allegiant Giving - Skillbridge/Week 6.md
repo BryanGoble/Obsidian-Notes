@@ -1,5 +1,13 @@
+---
+tags:
+  - Linux
+  - Python
+  - Git
+---
+
 # Courses
 1. [Google IT Automation with Python (Course 3)](https://www.coursera.org/learn/introduction-git-github/)
+2. [Google IT Automation with Python (Course 4)](https://www.coursera.org/learn/troubleshooting-debugging-techniques/)
 
 > Bonus Tip: Since you can't `return` when not within a function, you can `import sys` then call `sys.exit (<whatever-you-want-to-return>)`
 ## Version Control
@@ -128,3 +136,34 @@ You can use `git config -l` to review or verify the configuration settings for y
 >
 >A few common examples of file patterns to exclude can be found [here](https://gist.github.com/octocat/9257657).
 
+## Troubleshooting and Debugging Techniques
+
+- Troubleshooting - The process of identifying, analyzing, and solving problems
+- Debugging - The process of identifying, analyzing, and removing bugs in a system/program
+- Debuggers - Let us follow the code line by line, inspect changes in variable assignments, interrupt the program when a specific condition is met, and more
+- System calls - Calls that the programs running on our computer make to the running kernel
+- 
+### Tools
+- `strace <command>` - Look at the system calls made by a program
+	- Use in conjunction with the following commands:
+		- `less` - Allows us to scroll through the text
+		- `-o <filename>` flag - Saves the output to a file
+- `ltrace <command>` - Look at the library calls made by the software
+- `iotop` - View which processes are using the most input/output
+- `iostat` - View statistics on the input/output operations
+- `vmstat` - View statistics on the virtual memory operations
+### Reproduction Case
+- A clear description of how and when the problem appears
+#### Steps:
+1. Getting Information
+2. Finding the root cause
+3. Performing the necessary remediation
+
+### Logs
+- Linux
+	- /var/log/syslog
+	- .xsession-errors (found in each users home directory)
+- MacOS
+	- /Library/Logs
+- Windows
+	- Event Viewer
