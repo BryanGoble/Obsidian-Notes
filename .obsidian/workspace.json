@@ -73,8 +73,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -157,8 +156,11 @@
   },
   "active": "9bbd181c34651400",
   "lastOpenFiles": [
-    "Allegiant Giving - Skillbridge/Week 1.md",
+    "Allegiant Giving - Skillbridge/Code Assignments/Fix a Slow System with Python.md",
+    "Codecademy/Computer Science Track/Python Programming.md",
+    "Cheatsheets/git-cheat-sheet-education.pdf",
     "Allegiant Giving - Skillbridge/Week 6.md",
+    "Allegiant Giving - Skillbridge/Week 1.md",
     "Untitled.canvas",
     "Codecademy/Computer Science Track/Git.md",
     "Software Development Methodologies.md",
@@ -171,8 +173,6 @@
     "Allegiant Giving - Skillbridge/Week 3.md",
     "Allegiant Giving - Skillbridge/Week 4.md",
     "Allegiant Giving - Skillbridge/Week 5.md",
-    "Cheatsheets/git-cheat-sheet-education.pdf",
-    "Codecademy/Computer Science Track/Python Programming.md",
     "Allegiant Giving - Skillbridge/Code Assignments/Using APIs in Python 3.md",
     "Allegiant Giving - Skillbridge/Code Assignments/CSV to HTML.md",
     "Allegiant Giving - Skillbridge/Code Assignments/Log Analysis Using Regular Expressions.md",

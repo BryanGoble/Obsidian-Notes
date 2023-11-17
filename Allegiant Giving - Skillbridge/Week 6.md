@@ -3,6 +3,8 @@ tags:
   - Linux
   - Python
   - Git
+  - Troubleshooting
+  - Networks
 ---
 
 # Courses
@@ -142,7 +144,8 @@ You can use `git config -l` to review or verify the configuration settings for y
 - Debugging - The process of identifying, analyzing, and removing bugs in a system/program
 - Debuggers - Let us follow the code line by line, inspect changes in variable assignments, interrupt the program when a specific condition is met, and more
 - System calls - Calls that the programs running on our computer make to the running kernel
-- 
+- Cache - Stores data in a form that's faster to access than its original form
+- Memory Leak - Memory which is no longer needed is not getting released (made available)
 ### Tools
 - `strace <command>` - Look at the system calls made by a program
 	- Use in conjunction with the following commands:
@@ -152,6 +155,7 @@ You can use `git config -l` to review or verify the configuration settings for y
 - `iotop` - View which processes are using the most input/output
 - `iostat` - View statistics on the input/output operations
 - `vmstat` - View statistics on the virtual memory operations
+- `psutil` - (Process and System Utilities) is a cross-platform library for retrieving information on running processes and system utilization (CPU, memory, disks, network, sensors) in Python.
 ### Reproduction Case
 - A clear description of how and when the problem appears
 #### Steps:
@@ -167,3 +171,36 @@ You can use `git config -l` to review or verify the configuration settings for y
 	- /Library/Logs
 - Windows
 	- Event Viewer
+## Writing Efficient Code
+- Profiler - A tool that measures the resources that our code is using, giving us a better understanding of what's going on
+	- Tools:
+		1. gprof - Used to analyze programs written in C
+		2. cProfile module - Used to analyze Python programs
+		3. pprofile3 - Deterministic and Statistic Python 3 profiler
+		4. `time` - Measures program completion time
+- Expensive actions - Those that can take a long time to complete
+- Time outputs the measurement in 3 formats:
+	1. real - The amount of actual time that it took to execute the command, sometimes referred to as "wall-clock time".
+	2. user - The time spent doing operations in the user space
+	3. sys - The time spent doing system-level operations
+## Transferring Files
+- `rsync [Options] [Source-Files-Dir] [Destination]` - (Remote Sync) is a utility for efficiently transferring and synchronizing files between a computers and an external hard drive and across networked computers by comparing the modification time and size of files.
+	- One of the important features of rsync is that it works on the "delta transfer algorithm", which means it'll only sync or copy the changes from the source to the destination instead of copying the whole file. This ultimately reduces the amount of data sent over the network.
+
+- Basic syntax:
+
+| Options | Uses |
+| :-- | :-- |
+| `-v` | Verbose Output |
+| `-q` | Suppress message output |
+| `-a` | Archive files and directory while synchronizing |
+| `-r` | Sync files and directories recursively |
+| `-b` | Take the backup during synchronization |
+| `-z` | Compress file data during the transfer |
+
+- Copy or sync files locally:
+	- `rsync -zvh [Source-Files-Dir] [Destination]`
+- Copy or sync directories locally:
+	- `rsync -zavh [Source-Files-Dir] [Destination]`
+- Copy files and directories recursively locally:
+	- `rsync -zrvh [Source-Files-Dir] [Destination]`
