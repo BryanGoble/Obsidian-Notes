@@ -173,6 +173,7 @@ You can use `git config -l` to review or verify the configuration settings for y
 	- /Library/Logs
 - Windows
 	- Event Viewer
+- Centralized Logs Collection - A special server that gathers all the logs from all of the servers, or even all of the computers on the network (eg. SIEM)
 ### Linux Commands/Tools
 - `netstat` - view open ports on system
 	- Flags:
