@@ -137,7 +137,6 @@ You can use `git config -l` to review or verify the configuration settings for y
 >.gitignore files are used to tell the git tool to intentionally ignore some files in a given Git repository. For example, this can be useful for configuration files or metadata files that a user may not want to check into the master branch. Check out more at: [https://git-scm.com/docs/gitignore](https://git-scm.com/docs/gitignore)
 >
 >A few common examples of file patterns to exclude can be found [here](https://gist.github.com/octocat/9257657).
-
 ## Troubleshooting and Debugging Techniques
 
 - Troubleshooting - The process of identifying, analyzing, and solving problems
@@ -146,6 +145,7 @@ You can use `git config -l` to review or verify the configuration settings for y
 - System calls - Calls that the programs running on our computer make to the running kernel
 - Cache - Stores data in a form that's faster to access than its original form
 - Memory Leak - Memory which is no longer needed is not getting released (made available)
+- Undefined Behavior - The code is doing something that's not valid in the programming language
 ### Tools
 - `strace <command>` - Look at the system calls made by a program
 	- Use in conjunction with the following commands:
@@ -156,13 +156,15 @@ You can use `git config -l` to review or verify the configuration settings for y
 - `iostat` - View statistics on the input/output operations
 - `vmstat` - View statistics on the virtual memory operations
 - `psutil` - (Process and System Utilities) is a cross-platform library for retrieving information on running processes and system utilization (CPU, memory, disks, network, sensors) in Python.
+- Valgrind - Very powerful tool that can tell us if the code is doing any invalid operations, no matter if it crashes or not
+- `gdb` - Debug a core dump and stop where the failure was recorded
+- `backtrace` - Used to show a summary of the function calls that were used to the point where the failure occurs.
 ### Reproduction Case
 - A clear description of how and when the problem appears
 #### Steps:
 1. Getting Information
 2. Finding the root cause
 3. Performing the necessary remediation
-
 ### Logs
 - Linux
 	- /var/log/syslog
@@ -171,6 +173,20 @@ You can use `git config -l` to review or verify the configuration settings for y
 	- /Library/Logs
 - Windows
 	- Event Viewer
+### Linux Commands/Tools
+- `netstat` - view open ports on system
+	- Flags:
+		- `-n` - Prints IPs instead of resolving hostnames
+		- `-l` - Only check sockets that are listening
+## Documentation
+- Postmortems - Documents that describe details of incidents to help us learn from our mistakes
+	- What caused the issue?
+	- What the impact of the issue was
+	- How it got diagnosed
+	- The short-term remediation you applied
+	- The long-term remediation you recommend
+- Highlight the impact, root cause, and action items under an executive summary at the beginning.
+- Break down the root cause and trigger followed by a "Lessons Learned"
 ## Writing Efficient Code
 - Profiler - A tool that measures the resources that our code is using, giving us a better understanding of what's going on
 	- Tools:
