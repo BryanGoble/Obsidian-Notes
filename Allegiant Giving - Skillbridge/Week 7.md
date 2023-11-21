@@ -31,3 +31,12 @@ In summary, Puppet is an automation tool that helps manage and configure compute
 - `puppet apply -v <manifest_file_here.pp>` - Applies the puppet manifest for future execution.
 - `=>` - Used to define all rules
 - `puppet parser validate` - Checks the syntax of the manifest.
+## Cloud Computing
+- Containers - applications that are packaged together with their configuration and dependencies.
+
+- Infrastructure as a Service (IaaS) - provides users with the bare minimum needed to utilize a server's computational resources, such as a virtual machine. It is the user's responsibility to configure everything else.
+- Software as a Service (SaaS) - A cloud provider delivers an entire application or program to the customer
+- Platform as a Service (PaaS) - A cloud provider offers a preconfigured platform to the customer
+### Scaling
+- Automatic scaling - The service offered by the Cloud provider will use metrics to automatically increase or decrease the capacity of the system.
+- Manual scaling - Changes are controlled by humans instead of software.
