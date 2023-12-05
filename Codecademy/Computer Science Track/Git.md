@@ -2,8 +2,7 @@
 tags:
   - Git
 ---
-
-## Basic Git Workflow
+# Basic Git Workflow
 - A Git project will normally consist of a basic three parts
 	- A Working Directory: This is where you are doing all the work
 		- `C:\Users\user\Git Projects\Project1`
@@ -11,8 +10,7 @@ tags:
 	- A Repository: This is where Git permanently stores those changes as different versions of the project
 - Workflow:
 	- `git init` -> Working Directory -> `git add` -> Staging Area -> `git commit` -> Repository
-
-## Common Git Commands
+# Common Git Commands
 - `git status` - Check the status of changes made to the Working Directory
 - `git add <filename>` - Tells git to start tracking the specified file and adds it to the staging area to be committed later.
 - `git diff <filename>` - Check the difference between the active file in the Working Directory and what was already added to the Staging Area

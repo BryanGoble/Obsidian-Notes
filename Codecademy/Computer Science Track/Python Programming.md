@@ -2,7 +2,6 @@
 tags:
   - Python
 ---
-
 # Syntax [^1]
 
 - Multi-line Strings
@@ -394,6 +393,6 @@ pipi_pitbull.time_explanation()
 
 # Footnotes
 
-[^1]: https://www.codecademy.com/resources/docs/python
+[^1]: [[https://www.codecademy.com/resources/docs/python]]
 [^2]: https://programsquared.com/python/difference-between-dictionary-and-hashmap-in-python/#:~:text=Dictionaries%20are%20built%2Din%20and,different%20data%20types%20as%20keys.
 [^3]: https://peps.python.org/pep-0008/

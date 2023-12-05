@@ -1,11 +1,12 @@
+---
+tags:
+  - Python
+  - SQL
+---
 # Courses
-1. [IBM Tools for Data Science (Week 1)](https://www.coursera.org/learn/open-source-tools-for-data-science/)
-2. [IBM Tools for Data Science (Week 2)](https://www.coursera.org/learn/open-source-tools-for-data-science/)
-3. [IBM Tools for Data Science (Week 3)](https://www.coursera.org/learn/open-source-tools-for-data-science/)
-4. [IBM Tools for Data Science (Week 4)](https://www.coursera.org/learn/open-source-tools-for-data-science/)
-5. [IBM Intro to Cloud Computing](https://www.coursera.org/learn/introduction-to-cloud/)
-
-## Overview - Data Science Tools
+1. [IBM Data Science Fundamentals with Python and SQL](https://www.coursera.org/programs/allegiant-giving-corporation-on-demand-learning-program-mjqmr/specializations/data-science-fundamentals-python-sql)
+	1. [Tools for Data Science](https://www.coursera.org/learn/open-source-tools-for-data-science/)
+# Overview - Data Science Tools
 
 ### Categories
 - Data Management
@@ -24,7 +25,6 @@
 - Model Monitoring and Assessment
 	- Tracks deployed models
 	- Checks for accuracy, fairness, and robustness monitoring
-
 ### Requirements of Categories
 - Execution Environments
 	- Libraries for code compiling and system resources to execute and verify code
@@ -39,7 +39,6 @@
 - Development Environments
 	- Integrated development environments (IDEs) provide a workspace and tolls to work on source code.
 	- IDEs like IBM Watson Studio provide testing and simulation tools to emulate the real world so you can see how your code will behave after it is deployed.
-
 ### Open Source Data Management Tools
 - MongoDB
 - CouchDB
@@ -49,7 +48,6 @@
 - ElasticSearch
 - MySQL
 - PostgreSQL
-
 ### Data Integration and Transformation
 - Is used for ETL or ELT
 - Commonly referred to as Data Refinery and Cleansing
@@ -60,14 +58,12 @@
 	- Spark SQL
 	- Node-Red
 	- Apache Airflow
-
 ### Data Visualization
 - Open Source Tools:
 	- HUE
 	- Kibana
 	- Superset
 	- PixieDust
-
 ### Model Deployment
 - Can be deployed to:
 	- PredictionIO
@@ -77,7 +73,6 @@
 	- mleap
 	- TensorFlow Serving
 	- TensorFlow Lite
-
 ### Model Monitoring and Assessment
 - Tools to keep track of machine learning model's prediction performance to maintain outdated models
 	- ModelDB
@@ -85,20 +80,17 @@
 	- Adversarial Robustness 360 Toolbox
 	- AI Explainability 360
 	- AI Fairness 360 Open Source Toolkit
-
 ### Code Asset Management
 - Tools for code asset management, also known as version management or version control:
 	- Git
 	- GitHub
 	- GitLab
 	- BitBucket
-
 ### Data Asset Management
 - Tools for data asset management, also known as data governance or data lineage:
 	- Apache Atlas
 	- Egeria
 	- Kylo
-
 ## Week 2 Summary
 
 - You should select a language to learn depending on your needs, the problems you are trying to solve, and whom you are solving them for.
@@ -114,7 +106,6 @@
 - For data science, popular program built with Scala is Apache Spark which includes Shark, MLlib, GraphX, and Spark Streaming.
 - Programs built for Data Science with JavaScript include TensorFlow.js and R-js.
 - One great application of Julia for Data Science is JuliaDB.
-
 ## Week 3 Summary
 
 - Libraries usually contain built-in modules that provide different functionalities.
@@ -142,7 +133,6 @@
 - You can use Red Hat OpenShift, a Kubernetes platform, to automate deployment, scaling, and management of microservices.
 - Ml-exchange.org has multiple predefined models.
 - According to the license, CDLA-Sharing, it stipulates that the modified version of the open data should be published under the same license terms.
-
 ## Week 4 Summary
 
 - Jupyter Notebooks are used in Data Science for recording experiments and projects.
@@ -165,7 +155,6 @@
 - The Anaconda Navigator GUI can launch multiple applications.
 - Additional open-source Jupyter environments include JupyterLab, JupyterLite, VS Code, and Google Colaboratory. 
 - JupyterLite is a browser-based tool.
-
 ## Week 5 Summary
 
 - The capabilities of R and its uses in Data Science.  
@@ -186,7 +175,6 @@
 - GitHub, GitLab and Bitbucket are examples of hosted version control systems.
 - Branches are used to isolate changes to code. When the changes are complete, they can be merged back into the main branch.
 - Repositories can be cloned to make it possible to work locally, then sync changes back to the original.
-
 ## Week 7 Summary
 
 - Watson Studio is a helpful tool for:
@@ -209,50 +197,3 @@
 - You can create and change new Jupyter Notebook templates.
 - Watson Studio accounts can be integrated into GitHub.
 - You can push notebooks from Watson Studio to GitHub.
-
-# Lesson 1 Summary: Introduction to Cloud Computing
-
-- Cloud computing is the delivery of on-demand computing resources over the internet on a pay-as-you-go basis; resources are dynamically assigned and reassigned among multiple users and scale up and down in response to users’ needs.
-- The origins of cloud computing can be traced back to the mainframes of the 1950s, with virtualization technologies and hypervisors serving as catalysts for the emergence of modern-day cloud computing.
-- Organizations must consider their business needs, investment viability, and risk capacity to create a cloud adoption strategy that delivers desired benefits without causing business disruptions and security, compliance, or performance issues.
-- Cloud adoption is growing faster than predicted. Driving this technological wave are cloud service providers with a host of services ranging from Infrastructure, Platform, and Software services. Some major Cloud providers of our time include AWS, Alibaba Cloud, Google, IBM, and Microsoft Azure.
-# Lesson 2 Summary: Business Case for Cloud Computing
-
-- The adoption of cloud technologies enables enterprises, big and small, to be agile, innovative, and competitive and to create differentiated customer experiences. Organizations are asking not whether they should move to the cloud but rather what strategy they should adopt to move to the cloud.
-- Some case studies that demonstrate the impact businesses have created by adopting the cloud:
-    - American Airlines adopting cloud technologies to deliver customer value rapidly across its enterprise
-    - UBank leveraging cloud platform services to give more control to their developers, thereby removing barriers to innovation
-    - Bitly leveraging the scalability offered by cloud infrastructure for low-latency delivery to its geographically dispersed enterprise customers
-    - ActivTrades leveraging the infrastructure, storage, network, and security offerings on the cloud to accelerate execution and delivery of new functions in their online trading systems to their customers
-# Lesson 3 Summary: Emerging Technologies Accelerated by Cloud
-
-Emerging technologies powered by the cloud are disrupting existing business models and creating unprecedented opportunities for businesses to grow, innovate, and create value for their customers.
-
-Some case studies that demonstrate how the use of emerging technologies on the cloud is creating value for millions around the world:
-- The use of the Internet of Things on the cloud to combat poaching of endangered rhinos in South Africa
-	- Provides the resources to store and process the data produced by IoT devices and users
-- Artificial Intelligence on the cloud is being leveraged to deliver unique digital experiences to millions of fans around the world by the United States Tennis Association 
-- Blockchain on the cloud helps farmers reduce waste by building traceability and transparency in the food supply chain
-	- Blockchain provides a decentralized source of truth, AI powers analytics and decision-making, and the cloud provides globally distributed computing resources
-- The use of data analytics for driving predictive maintenance solutions for a city’s infrastructure by KONE
-# Module 1 Glossary: Overview of Cloud Computing
-
-|**Term**|**Definition**|
-|---|---|
-|**AI**|Artificial intelligence|
-|**Blockchain**|An immutable network allowing members to view only those transactions that are relevant to them|
-|**Broad Network Access**|Cloud computing resources can be accessed through the network|
-|**Cloud computing**|A model for enabling convenient, on-demand network access to a shared pool of configurable computing resources that can be rapidly provisioned and released with minimal management effort or service provider interaction|
-|**GCP**|Google Cloud Platform|
-|**Hypervisor**|A small software layer that enables multiple operating systems to run alongside each other, sharing the same physical computing resources|
-|**IDC**|International Data Corporation|
-|**IoT**|Internet of things|
-|**Measured Service**|You only pay for what you use or reserve as you go|
-|**NIST**|National Institute for Standards and Technology|
-|**PaaS**|Platform as a service|
-|**Pay-As-You-Go**|Users can order cloud resources from a larger pool of available resources and pay for them on a per-use basis|
-|**POP**|Post office protocol|
-|**Rapid elasticity**|You can increase or decrease resources as per your demand because of the elastic property of the cloud|
-|**SaaS**|Software as a service|
-|**Utility model of billing**|You are charged after the usage and at the end of the pre-defined period|
-|**VM**|Virtual machine|

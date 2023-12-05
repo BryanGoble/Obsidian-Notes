@@ -2,31 +2,29 @@
 tags:
   - JavaScript
   - Binary
+  - Math
 ---
-
-# Courses
+# Courses:
 1. [Introduction to Computer Science and Programming Specialization](https://www.coursera.org/learn/introduction-to-computer-programming/)
-2. [How Computers Work](https://www.coursera.org/learn/how-computers-work)
-3. [Mathematics for Computer Science](https://www.coursera.org/learn/mathematics-for-computer-science/)
-# Requirements
+	1. [Introduction to Computer Programming](https://www.coursera.org/learn/introduction-to-computer-programming)
+	2. [How Computers Work](https://www.coursera.org/learn/how-computers-work)
+	3. [Mathematics for Computer Science](https://www.coursera.org/learn/mathematics-for-computer-science/)
+# Tools
 1. Code Editor
-	1. B something
+	1. Brackets
 	2. VS Code w/ Live Server extension
 2. Libraries
-	1. p5.js - Javascript drawing utility for the browser
-
+	1. p5.js - JavaScript drawing utility for the browser
 # Content
 
 ## P5.JS
 p5.js was made to visually illustrate what your code is doing and does this through drawings on a webpage.
 
 p5.js sketches using a coordinate system on the Cartesian Plane, like we used to see back in High School.
-
 ### Required Files
 1. index.html
 2. sketch.js
 3. library folder to host the p5.js locally (Optional)
-
 ### Sketch.js
 Use functions to establish the setup and drawing functionality
 ```js
@@ -38,7 +36,6 @@ function draw() {
 	rect(x, y, width, height); // 100, 100, 10, 10 - Creates a 10x10 square starting at 100, 100 on the cartesian plane.
 }
 ```
-
 ## Abstraction
 Describing the main details without unnecessary information
 - Numbers and Pixels are two different ways of thinking about the same representation of an image.
@@ -57,10 +54,8 @@ Common examples of notional machines include:
 3. Register Machine: A register machine is a notional machine that uses a finite number of registers to perform computations. It is often used in the study of computability and complexity theory.
 
 Notional machines are valuable tools for computer scientists and researchers to analyze and compare algorithms, study computational complexity, and prove theorems about the limits of computation. They help abstract away the complexities of real-world computer systems and allow for a more precise and theoretical understanding of computation.
-
 ## Binary (Base 2)
 Binary numbers come in two forms, 0 or 1. They can be added, subtracted, multiplied, and divided. They can even be converted into other formats like Decimal.
-
 ### Binary to Decimal (Base 10)
 Binary to decimal conversion is the process of turning a binary number, which uses only two digits (0 and 1), into a decimal number, which uses ten digits (0 through 9). To do this, you start with the rightmost digit of the binary number and assign it the value of 2^0 (which is 1). Then, for each digit to the left, you double the previous value and assign it to that digit. Finally, you add up all these values to get the decimal equivalent of the binary number.
 
@@ -74,7 +69,6 @@ For example, to convert the binary number 1101 to decimal:
 Now, add up all these values: 8 + 4 + 0 + 1 = 13
 
 So, the binary number 1101 is equal to the decimal number 13.
-
 ### Binary Fraction to Decimal
 Converting a binary fraction (a binary number with a fractional part) to decimal is also a straightforward process. You can use the same concept as before but with negative powers of 2 for the fractional part. Here's how you can convert the binary fraction 1.0110 to decimal:
 
@@ -92,7 +86,6 @@ Converting a binary fraction (a binary number with a fractional part) to decimal
    1 (whole number part) + 0 + 0.25 + 0.125 + 0 = 1.375 in decimal.
 
 So, the binary fraction 1.0110 is equal to the decimal number 1.375.
-
 ### Arithmetic in Binary
 Certainly! Here are simple explanations of binary addition, subtraction, multiplication, and division:
 
@@ -152,7 +145,6 @@ Certainly! Here are simple explanations of binary addition, subtraction, multipl
    In this example, you divide 10011 by 11, getting a quotient of 100 and a remainder of 1.
 
 These operations in binary follow similar principles to their decimal counterparts but use base 2 instead of base 10.
-
 ### Binary to Octal (Base 8)
 Binary to octal conversion is a process of changing a binary number, which uses only 0s and 1s, into an octal number, which uses digits from 0 to 7. 
 
@@ -171,7 +163,6 @@ Here's how it works:
    - Binary 111 corresponds to Octal 7.
 
 3. Combine the octal digits you found in step 2 to get the octal representation of the original binary number.
-
 ### Binary to Hexadecimal (Base 16)
 Binary to hexadecimal conversion is a way to represent binary (base-2) numbers using hexadecimal (base-16) digits. Here's a simple explanation:
 
@@ -202,7 +193,6 @@ For example, let's convert the binary number 110110101011 to hexadecimal:
 2. Convert each group: 11 = 3, 0110 = 6, 1010 = A, 1101 = D.
 3. Write the hexadecimal digits together: 3 6 A D.
 4. The hexadecimal representation of 110110101011 is 36AD.
-
 ## Decimal (Base 10) Conversions
 ### Decimal to Octal
 Decimal to octal conversion is a process of changing a number from its usual base-10 representation (decimal) into a base-8 representation (octal). Here's a simple explanation of how it works:
@@ -248,7 +238,6 @@ You can also convert a decimal number to octal by using powers of 8. Here's how 
 2. Finally, take the remainder (3) and write it as the rightmost digit in the octal representation because 3 * 1 = 3.
 
 So, the octal representation of 179 in octal using powers of 8 is 263.
-
 ### Octal to Decimal
 Octal to decimal conversion is a process of changing a number from the octal number system (base-8) to the decimal number system (base-10). In octal, we use digits 0 through 7, whereas in decimal, we use digits 0 through 9.
 
@@ -310,7 +299,6 @@ Here's an example, converting the decimal number 3657 to hexadecimal using base 
 So, the decimal number 3657 is equivalent to the hexadecimal number 0xE49 in this method.
 
 In summary, this method involves finding the largest power of 16 in your decimal number, determining the leftmost digit in hexadecimal, and then subtracting that value to continue the process with the remainder until it becomes zero.
-
 ### Hexadecimal to Decimal
 Hexadecimal to decimal conversion is a way to change a number represented in base-16 (hexadecimal) to its equivalent in base-10 (decimal). 
 
@@ -331,7 +319,6 @@ For example, let's convert the hexadecimal number "1A" to decimal:
 3. Add the results: 10 + 1 = 11.
 
 So, the hexadecimal number "1A" is equal to the decimal number 11.
-
 ## Fractionals
 ### Octal Fractionals
 
@@ -384,7 +371,6 @@ Decimal fractionals to octal conversion involves converting a decimal number wit
    - Combine the whole part (0) and the fractional part (41) to get the octal representation: 0.415 (in octal).
 
 So, the decimal fractional number 0.515625 is equivalent to 0.415 in octal notation.
-
 ### Hexadecimal Fractionals
 
 | 4096 | 256 | 16 | 1 | . | 1/16 | 1/256 | 1/... |
@@ -423,15 +409,12 @@ Decimal fractional to hexadecimal conversion involves converting a decimal numbe
 
 So, the hexadecimal representation of the decimal fractional 0.96875 is 0.F in hexadecimal notation.
 Therefore, 1.96875 in decimal is equivalent to 1.0F in hexadecimal.
-
 ## Steganography using Binary
 
 Steganography is a method of hiding a secret message within another piece of data, such as an image, without it being apparent to anyone who looks at the data. In this case, we'll use binary messages and hexadecimal color values to explain how it works.
 
 1. Binary Messages: Binary is a system of representing information using only two symbols, usually 0 and 1. In the context of steganography, a binary message is a series of these 0s and 1s that you want to hide within another piece of data.
-    
 2. Hexadecimal Color Values: In digital images, colors are often represented using hexadecimal values. Hexadecimal is a base-16 numbering system that uses the digits 0-9 and the letters A-F to represent values from 0 to 15. Each color in an image is typically described using a combination of red (R), green (G), and blue (B) values, each represented by two hexadecimal digits. For example, the color white is represented as `#FFFFFF`, where FF stands for the highest intensity of red, green, and blue.
-    
 
 Here's a simple way to use steganography with binary messages and hexadecimal color values:
 1. Break up your image pixels into rows and columns to divide the colors
@@ -444,3 +427,105 @@ To encode a message, do the opposite
 2. Convert each number to 3 digit binary
 3. Take each digit and replace the final hex color value in each pixel.
 4. The colors will ever so slightly change, but look almost original.
+## Modular Arithmetic
+Modular arithmetic is a way of doing arithmetic with a fixed, finite set of numbers. In simple terms, it's like doing regular addition, subtraction, multiplication, and division, but instead of working with all the numbers, you work within a specific "modulus" or "clock."
+
+Here's how it works:
+
+1. **Modulus:** You choose a modulus, which is a positive whole number, often denoted as "m." This modulus determines the size of your number set. For example, if you choose a modulus of 12, you're working with numbers 0 to 11 (12 numbers in total).
+
+2. **Operations:** In modular arithmetic, when you perform operations like addition, subtraction, multiplication, or division, you stay within the set of numbers from 0 to m-1. If the result goes beyond this range, you wrap around or "wrap" back to the beginning. 
+
+   - **Addition:** If you add two numbers and the result is greater than or equal to the modulus, you subtract the modulus from the result until it falls within the 0 to m-1 range.
+   
+   - **Subtraction:** If you subtract two numbers, and the result is negative, you add the modulus to the result until it's within the 0 to m-1 range.
+
+   - **Multiplication and Division:** For multiplication and division, you use modular arithmetic similarly to addition and subtraction, ensuring the result stays within the 0 to m-1 range.
+
+Here's an example using modulus 12:
+
+- 8 + 6 = 14 in regular arithmetic, but in modular arithmetic (mod 12), it's 2 because you wrap around after reaching 11.
+- 9 - 5 = 4 in regular arithmetic, and in modular arithmetic (mod 12), it's still 4 because the result is within the 0 to 11 range.
+- 3 * 7 = 21 in regular arithmetic, but in modular arithmetic (mod 12), it's 9 because you wrap around after reaching 11.
+- 10 / 2 = 5 in regular arithmetic, and in modular arithmetic (mod 12), it's still 5 because the result is within the 0 to 11 range.
+
+In essence, modular arithmetic is like doing arithmetic in a loop, where you keep cycling through a set of numbers and stay within that fixed range. It's commonly used in various fields, including computer science, cryptography, and number theory.
+## Sequences and Series
+In computer science mathematics, sequences and series are fundamental concepts that involve lists or sequences of numbers and the sum of those numbers. Let me explain them in simple terms:
+
+1. **Sequence:**
+   - A sequence is like a list of numbers that follow a specific pattern or order.
+   - Each number in the sequence is called a term.
+   - For example, 1, 2, 3, 4, 5 is a sequence of natural numbers.
+
+2. **Series:**
+   - A series is the sum of the terms in a sequence.
+   - It's like adding up all the numbers in the sequence.
+   - For example, if we have the sequence 1, 2, 3, 4, 5, the series would be 1 + 2 + 3 + 4 + 5 = 15.
+
+In computer science and mathematics, sequences and series are often used to model and solve various problems, especially in areas like algorithms, data analysis, and numerical computations. Understanding these concepts helps in designing efficient algorithms and solving mathematical problems involving patterns and sums of numbers.
+### Arithmetic Sequence:
+
+- An arithmetic sequence is like a list of numbers where each term is obtained by adding the same fixed number (called the common difference) to the previous term.
+- In simpler words, you keep adding or subtracting the same amount to get to the next number.
+- For example, if you start with 2 and add 3 each time, you get the sequence: 2, 5, 8, 11, 14...
+### Geometric Sequence:
+
+- A geometric sequence is like a list of numbers where each term is obtained by multiplying the previous term by the same fixed number (called the common ratio).
+- In simpler words, you keep multiplying by the same amount to get to the next number.
+- For example, if you start with 2 and multiply by 3 each time, you get the sequence: 2, 6, 18, 54, 162...
+
+In both arithmetic and geometric sequences, the key is that there's a consistent rule for getting from one term to the next. These sequences are commonly used in various mathematical and scientific contexts, such as calculating interest in finance (geometric) or modeling the growth of data (arithmetic or geometric).
+### Sigma Notation, Summation
+In simple terms, sigma notation, also known as summation notation, is a way to represent the sum of a series of numbers or terms in a concise and organized manner. It uses the Greek letter sigma (Σ) to denote the summation operation. Here's a simple explanation:
+
+1. **Sigma Symbol (Σ):** The sigma symbol Σ is used to indicate that you're going to add up a bunch of things.
+
+2. **Index:** You typically see a variable below the sigma symbol, like "i" or "k." This variable is called the index, and it represents the position of the term you're adding.
+
+3. **Limits:** There are numbers above and below the sigma symbol that show the starting and ending points for the summation. The lower limit (often denoted as "n =") tells you where to begin adding, and the upper limit (often denoted as "m =") tells you where to stop.
+
+4. **Expression:** To the right of the sigma symbol, you have an expression that describes what you're adding at each position, based on the index variable.
+
+Here's an example to illustrate sigma notation:
+
+Σ(i) from i = 1 to 4
+
+This means you're going to add up a series of numbers where "i" starts at 1 and goes up to 4. At each step, you take the current value of "i" and add it to the sum:
+
+Sum = 1 + 2 + 3 + 4 = 10
+
+So, in simple terms, sigma notation helps you represent and easily compute the sum of a sequence of numbers by specifying the pattern for adding them together.
+## Graphs of functions and kinematics
+
+### Graphs of Functions:
+   - Think of a graph of a function as a way to show how one thing (like time, temperature, or distance) changes in relation to another thing (like speed, age, or height).
+   - Imagine a piece of paper with a horizontal line (the x-axis) and a vertical line (the y-axis) intersecting at a point called the origin (usually at the center of the graph).
+   - Now, let's say you have a function, which is like a rule that tells you how to calculate the y-coordinate (vertical position) for any given x-coordinate (horizontal position).
+   - When you plot points on the graph using the x and y-coordinates from the function, you create a curve or a line that shows how one thing depends on the other.
+   - For example, if you have a function that describes how the temperature changes with time, you can create a graph where time is on the x-axis, and temperature is on the y-axis. The curve or line on the graph will show you how the temperature changes over time.
+### Kinematics:
+   - Kinematics is like a set of rules that helps you describe and understand the motion of objects, like how a car moves, how a ball is thrown, or how a person walks.
+   - It's all about studying how things move, so you can predict where they will be at different times.
+   - In kinematics, you look at factors like speed, distance, time, and direction to figure out how an object is moving.
+   - Imagine watching a car driving down the road. You can use kinematics to answer questions like, "How fast is it going?" or "How long will it take to reach a certain point?"
+   - Kinematics equations and graphs help you make sense of these questions by showing how different variables are related to each other as an object moves. For example, a graph might show how an object's position changes with time, so you can see if it's speeding up, slowing down, or staying constant.
+
+In essence, graphs of functions and kinematics are tools that help us visualize and understand how things change and move in the world around us.
+### Interval Notation
+Interval notation is a way to express and describe sets of real numbers or intervals on the number line in a simple and compact form. It uses brackets and parentheses to show which values are included or excluded within a range. Here's a simple explanation:
+
+1. Square Brackets [ ]:
+   - If you see square brackets, like [a, b], it means that both 'a' and 'b' are included in the interval. In other words, the interval contains all the numbers from 'a' to 'b,' including 'a' and 'b' themselves.
+   - For example, [2, 5] represents the interval from 2 to 5, including both 2 and 5: {2, 3, 4, 5}.
+
+2. Round Parentheses ( ):
+   - If you see round parentheses, like (a, b), it means that 'a' and 'b' are excluded from the interval. In other words, the interval contains all the numbers between 'a' and 'b,' but 'a' and 'b' themselves are not part of it.
+   - For example, (1, 4) represents the interval from 1 to 4, but it does not include 1 or 4: {2, 3}.
+
+3. A Combination of Brackets and Parentheses:
+   - Sometimes, you might see a combination of brackets and parentheses in an interval. For instance, [a, b) means that 'a' is included, but 'b' is not.
+   - Similarly, (a, b] means that 'b' is included, but 'a' is not.
+   - For example, [1, 5) includes 1 but not 5, while (2, 6] includes 6 but not 2.
+
+Interval notation is a concise way to represent a range of values on the number line, making it easier to communicate and work with intervals in mathematics and various fields like algebra, calculus, and set theory.
