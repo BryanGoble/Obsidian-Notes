@@ -10,6 +10,10 @@ tags:
 	- A Repository: This is where Git permanently stores those changes as different versions of the project
 - Workflow:
 	- `git init` -> Working Directory -> `git add` -> Staging Area -> `git commit` -> Repository
+
+# Adding Feature Workflow
+- When wanting to add a feature to a repository's code, follow the basic workflow:
+	- `git clone` -> `git checkout -b <feature_branch>` -> Make changes -> `git add` -> `git commit` -> `git checkout main` -> `git merge <feature_branch>` -> `git branch -d <feature_branch>`
 # Common Git Commands
 - `git status` - Check the status of changes made to the Working Directory
 - `git add <filename>` - Tells git to start tracking the specified file and adds it to the staging area to be committed later.

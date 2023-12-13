@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Allegiant Giving - Skillbridge/Courses/IBM Full Stack Software Developer Professional Certificate.md",
+                "file": "Allegiant Giving - Skillbridge/Courses/IBM Full Stack Software Developer/Getting Started with Git and GitHub - Module 3.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Allegiant Giving - Skillbridge/Courses/IBM Full Stack Software Developer Professional Certificate.md",
+                "file": "Allegiant Giving - Skillbridge/Courses/IBM Full Stack Software Developer/Getting Started with Git and GitHub - Module 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Allegiant Giving - Skillbridge/Courses/IBM Full Stack Software Developer Professional Certificate.md",
+                "file": "Allegiant Giving - Skillbridge/Courses/IBM Full Stack Software Developer/Getting Started with Git and GitHub - Module 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Allegiant Giving - Skillbridge/Courses/IBM Full Stack Software Developer Professional Certificate.md"
+                "file": "Allegiant Giving - Skillbridge/Courses/IBM Full Stack Software Developer/Getting Started with Git and GitHub - Module 3.md"
               }
             }
           }
@@ -156,17 +156,19 @@
   },
   "active": "9bbd181c34651400",
   "lastOpenFiles": [
+    "Allegiant Giving - Skillbridge/Courses/IBM Full Stack Software Developer/Introduction to Cloud Computing - Module 1.md",
+    "Codecademy/Computer Science Track/Git.md",
+    "Allegiant Giving - Skillbridge/Courses/IBM Full Stack Software Developer/Getting Started with Git and GitHub - Module 3.md",
     "Allegiant Giving - Skillbridge/Courses/Google IT Automation with Python Professional Certificate.md",
-    "Codecademy/Computer Science Track/Python Programming.md",
-    "Allegiant Giving - Skillbridge/Courses/Introduction to Computer Science and Programming Specialization.md",
     "Allegiant Giving - Skillbridge/Courses/Python for Everybody Specialization.md",
+    "Allegiant Giving - Skillbridge/Courses/Introduction to Computer Science and Programming Specialization.md",
+    "Allegiant Giving - Skillbridge/Courses/IBM Full Stack Software Developer",
+    "Codecademy/Computer Science Track/Python Programming.md",
     "TryHackMe/Advent of Code/Day 2.md",
     "TryHackMe/Advent of Code",
     "TryHackMe/Advent of Code",
     "Pasted image 20231204105112.png",
-    "Allegiant Giving - Skillbridge/Courses/IBM Full Stack Software Developer Professional Certificate.md",
     "TryHackMe",
-    "Codecademy/Computer Science Track/Git.md",
     "Homelab/Docker.md",
     "ExamPro/Terraform Cloud Project Beginner Bootcamp/Week 0 (Prep).md",
     "Allegiant Giving - Skillbridge/Week 8.md",
@@ -187,13 +189,11 @@
     "Allegiant Giving - Skillbridge/Code Assignments/Log Analysis Using Regular Expressions.md",
     "Allegiant Giving - Skillbridge/Code Assignments/Loops and Web Scraping.md",
     "Allegiant Giving - Skillbridge/Code Assignments/Many-Many Relationships in SQL.md",
-    "Allegiant Giving - Skillbridge/Code Assignments/Reading Files Parsing w REGEX.md",
     "Untitled.canvas",
     "Allegiant Giving - Skillbridge/Code Assignments/Untitled",
     "Allegiant Giving - Skillbridge/Code Assignments",
     "Allegiant Giving - Skillbridge",
     "ExamPro/Terraform Cloud Project Beginner Bootcamp",
-    "ExamPro",
     "Pasted image 20230403191154.png",
     "Pasted image 20230403191111.png"
   ]
