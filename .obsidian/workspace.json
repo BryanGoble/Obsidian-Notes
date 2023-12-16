@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Allegiant Giving - Skillbridge/Courses/IBM Full Stack Software Developer/Getting Started with Git and GitHub - Module 3.md",
+                "file": "Allegiant Giving - Skillbridge/Courses/IBM Full Stack Software Developer/Introduction to Web Development with HTML, CSS, JavaScript.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Allegiant Giving - Skillbridge/Courses/IBM Full Stack Software Developer/Getting Started with Git and GitHub - Module 3.md",
+                "file": "Allegiant Giving - Skillbridge/Courses/IBM Full Stack Software Developer/Introduction to Web Development with HTML, CSS, JavaScript.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Allegiant Giving - Skillbridge/Courses/IBM Full Stack Software Developer/Getting Started with Git and GitHub - Module 3.md",
+                "file": "Allegiant Giving - Skillbridge/Courses/IBM Full Stack Software Developer/Introduction to Web Development with HTML, CSS, JavaScript.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Allegiant Giving - Skillbridge/Courses/IBM Full Stack Software Developer/Getting Started with Git and GitHub - Module 3.md"
+                "file": "Allegiant Giving - Skillbridge/Courses/IBM Full Stack Software Developer/Introduction to Web Development with HTML, CSS, JavaScript.md"
               }
             }
           }
@@ -157,8 +157,9 @@
   "active": "9bbd181c34651400",
   "lastOpenFiles": [
     "Allegiant Giving - Skillbridge/Courses/IBM Full Stack Software Developer/Introduction to Cloud Computing - Module 1.md",
-    "Codecademy/Computer Science Track/Git.md",
+    "Allegiant Giving - Skillbridge/Courses/IBM Full Stack Software Developer/Introduction to Web Development with HTML, CSS, JavaScript.md",
     "Allegiant Giving - Skillbridge/Courses/IBM Full Stack Software Developer/Getting Started with Git and GitHub - Module 3.md",
+    "Codecademy/Computer Science Track/Git.md",
     "Allegiant Giving - Skillbridge/Courses/Google IT Automation with Python Professional Certificate.md",
     "Allegiant Giving - Skillbridge/Courses/Python for Everybody Specialization.md",
     "Allegiant Giving - Skillbridge/Courses/Introduction to Computer Science and Programming Specialization.md",
@@ -188,7 +189,6 @@
     "Cheatsheets/git-cheat-sheet-education.pdf",
     "Allegiant Giving - Skillbridge/Code Assignments/Log Analysis Using Regular Expressions.md",
     "Allegiant Giving - Skillbridge/Code Assignments/Loops and Web Scraping.md",
-    "Allegiant Giving - Skillbridge/Code Assignments/Many-Many Relationships in SQL.md",
     "Untitled.canvas",
     "Allegiant Giving - Skillbridge/Code Assignments/Untitled",
     "Allegiant Giving - Skillbridge/Code Assignments",
