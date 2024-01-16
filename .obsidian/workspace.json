@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "538d3605d23570d1",
+        "id": "4b509e1ff59ff171",
         "type": "tabs",
         "children": [
           {
-            "id": "9bbd181c34651400",
+            "id": "8e8815363d06e32d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Allegiant Giving - Skillbridge/Courses/IBM Full Stack Software Developer/Introduction to Web Development with HTML, CSS, JavaScript.md",
+                "file": "Allegiant Giving - Skillbridge/Courses/IBM Full Stack Software Developer/Introduction to Containers with Docker, Kubernetes, & OpenShift - Module 9.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#SQL",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Allegiant Giving - Skillbridge/Courses/IBM Full Stack Software Developer/Introduction to Web Development with HTML, CSS, JavaScript.md",
+                "file": "Allegiant Giving - Skillbridge/Courses/IBM Full Stack Software Developer/Introduction to Containers with Docker, Kubernetes, & OpenShift - Module 9.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Allegiant Giving - Skillbridge/Courses/IBM Full Stack Software Developer/Introduction to Web Development with HTML, CSS, JavaScript.md",
+                "file": "Allegiant Giving - Skillbridge/Courses/IBM Full Stack Software Developer/Introduction to Containers with Docker, Kubernetes, & OpenShift - Module 9.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Allegiant Giving - Skillbridge/Courses/IBM Full Stack Software Developer/Introduction to Web Development with HTML, CSS, JavaScript.md"
+                "file": "Allegiant Giving - Skillbridge/Courses/IBM Full Stack Software Developer/Introduction to Containers with Docker, Kubernetes, & OpenShift - Module 9.md"
               }
             }
           }
@@ -154,46 +154,46 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9bbd181c34651400",
+  "active": "8e8815363d06e32d",
   "lastOpenFiles": [
-    "Allegiant Giving - Skillbridge/Courses/IBM Full Stack Software Developer/Introduction to Cloud Computing - Module 1.md",
-    "Allegiant Giving - Skillbridge/Courses/IBM Full Stack Software Developer/Introduction to Web Development with HTML, CSS, JavaScript.md",
     "Allegiant Giving - Skillbridge/Courses/IBM Full Stack Software Developer/Getting Started with Git and GitHub - Module 3.md",
-    "Codecademy/Computer Science Track/Git.md",
-    "Allegiant Giving - Skillbridge/Courses/Google IT Automation with Python Professional Certificate.md",
-    "Allegiant Giving - Skillbridge/Courses/Python for Everybody Specialization.md",
-    "Allegiant Giving - Skillbridge/Courses/Introduction to Computer Science and Programming Specialization.md",
-    "Allegiant Giving - Skillbridge/Courses/IBM Full Stack Software Developer",
-    "Codecademy/Computer Science Track/Python Programming.md",
+    "Allegiant Giving - Skillbridge/Courses/IBM Full Stack Software Developer/Introduction to Containers with Docker, Kubernetes, & OpenShift - Module 9.md",
+    "Allegiant Giving - Skillbridge/Courses/IBM Data Science Fundamentals with Python and SQL/Python Project for Data Science.md",
+    "Allegiant Giving - Skillbridge/Courses/IBM Data Science Fundamentals with Python and SQL/Python for Data Science, AI & Development.md",
+    "Cheatsheets/Python Cheat Sheet - The Basics Coursera.pdf",
+    "Cheatsheets/Python Cheat Sheet - The Basics Coursera.pdf.crdownload",
+    "Allegiant Giving - Skillbridge/Courses/IBM Data Science Fundamentals with Python and SQL/Tools for Data Science.md",
+    "Allegiant Giving - Skillbridge/Courses/IBM Data Science Fundamentals with Python and SQL",
     "TryHackMe/Advent of Code/Day 2.md",
+    "TryHackMe/Advent of Code/Day 10 - Inject the Halls with EXEC Queries.md",
+    "TryHackMe/Advent of Code/Day 7.md",
+    "TryHackMe/Advent of Code/Day 5.md",
+    "TryHackMe/Advent of Code/Day 4.md",
+    "TryHackMe/Advent of Code/Day 3.md",
+    "Allegiant Giving - Skillbridge/Code Assignments/Joining Tables.md",
+    "Allegiant Giving - Skillbridge/Code Assignments/Handling Files.md",
+    "Allegiant Giving - Skillbridge/Code Assignments/Google Drive Download Bash Script.md",
+    "Allegiant Giving - Skillbridge/Code Assignments/Fix a Slow System with Python.md",
+    "Allegiant Giving - Skillbridge/Code Assignments/CSV to HTML.md",
+    "Allegiant Giving - Skillbridge/Code Assignments/Automatically Generate a PDF and Send It by Email.md",
+    "Allegiant Giving - Skillbridge/Code Assignments/Counting in SQL with Python.md",
+    "Allegiant Giving - Skillbridge/Code Assignments/Process Text Files with Python Dictionaries ....md",
+    "Allegiant Giving - Skillbridge/Code Assignments/Parsing Websites in XML.md",
+    "Allegiant Giving - Skillbridge/Code Assignments/Many-Many Relationships in SQL.md",
+    "Allegiant Giving - Skillbridge/Code Assignments/Loops and Web Scraping.md",
+    "Allegiant Giving - Skillbridge/Code Assignments/Log Analysis Using Regular Expressions.md",
+    "Allegiant Giving - Skillbridge/Code Assignments/Implementing Unit Testing.md",
+    "Codecademy/Computer Science Track/Git.md",
+    "Allegiant Giving - Skillbridge/Courses/IBM Full Stack Software Developer/Introduction to Web Development with HTML, CSS, JavaScript.md",
+    "Allegiant Giving - Skillbridge/Courses/IBM Full Stack Software Developer",
     "TryHackMe/Advent of Code",
     "TryHackMe/Advent of Code",
     "Pasted image 20231204105112.png",
     "TryHackMe",
-    "Homelab/Docker.md",
-    "ExamPro/Terraform Cloud Project Beginner Bootcamp/Week 0 (Prep).md",
-    "Allegiant Giving - Skillbridge/Week 8.md",
-    "Allegiant Giving - Skillbridge/Courses/IBM Data Science Fundamentals with Python and SQL Specialization.md",
-    "Allegiant Giving - Skillbridge/Week 7.md",
-    "Allegiant Giving - Skillbridge/Week 6.md",
-    "Allegiant Giving - Skillbridge/Week 5.md",
-    "Allegiant Giving - Skillbridge/Week 4.md",
-    "Allegiant Giving - Skillbridge/Week 3.md",
-    "Allegiant Giving - Skillbridge/Week 2.md",
-    "Allegiant Giving - Skillbridge/Week 1.md",
     "Allegiant Giving - Skillbridge/Courses",
-    "Allegiant Giving - Skillbridge/Code Assignments/Automatically Generate a PDF and Send It by Email.md",
-    "Allegiant Giving - Skillbridge/Code Assignments/Counting in SQL with Python.md",
-    "Allegiant Giving - Skillbridge/Code Assignments/CSV to HTML.md",
-    "Allegiant Giving - Skillbridge/Code Assignments/Working with Log Files.md",
     "Cheatsheets/git-cheat-sheet-education.pdf",
-    "Allegiant Giving - Skillbridge/Code Assignments/Log Analysis Using Regular Expressions.md",
-    "Allegiant Giving - Skillbridge/Code Assignments/Loops and Web Scraping.md",
     "Untitled.canvas",
     "Allegiant Giving - Skillbridge/Code Assignments/Untitled",
-    "Allegiant Giving - Skillbridge/Code Assignments",
-    "Allegiant Giving - Skillbridge",
-    "ExamPro/Terraform Cloud Project Beginner Bootcamp",
     "Pasted image 20230403191154.png",
     "Pasted image 20230403191111.png"
   ]
