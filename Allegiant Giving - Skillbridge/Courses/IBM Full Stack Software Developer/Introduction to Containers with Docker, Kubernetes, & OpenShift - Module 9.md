@@ -1,3 +1,6 @@
+# Courses
+1. [IBM Full Stack Software Developer Professional](https://www.coursera.org/programs/allegiant-giving-corporation-on-demand-learning-program-mjqmr/professional-certificates/ibm-full-stack-cloud-developer)
+	1. [Introduction to Containers with Docker, Kubernetes, & OpenShift](https://www.coursera.org/learn/ibm-containers-docker-kubernetes-openshift/)
 # Summary - Week 1
 
 - A container is a unit of software that encapsulates everything needed to build, ship, and run applications.  
