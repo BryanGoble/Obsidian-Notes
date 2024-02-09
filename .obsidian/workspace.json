@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "5f8302ab50828dfe",
+        "id": "9f1c524b7b51e1a4",
         "type": "tabs",
         "children": [
           {
-            "id": "7c2a9672a1786051",
+            "id": "df8adf9a39495300",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Allegiant Giving - Skillbridge/Courses/IBM DevOps and Software Engineering/Hands-on Introduction to Linux Commands and Shell Scripting.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -48,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#SQL",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -93,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Allegiant Giving - Skillbridge/Courses/IBM DevOps and Software Engineering/Hands-on Introduction to Linux Commands and Shell Scripting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Allegiant Giving - Skillbridge/Courses/IBM DevOps and Software Engineering/Hands-on Introduction to Linux Commands and Shell Scripting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Allegiant Giving - Skillbridge/Courses/IBM DevOps and Software Engineering/Hands-on Introduction to Linux Commands and Shell Scripting.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -154,10 +146,29 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7c2a9672a1786051",
+  "active": "df8adf9a39495300",
   "lastOpenFiles": [
-    "Allegiant Giving - Skillbridge/Courses/IBM DevOps, Cloud, and Agile Foundations/Introduction to Agile Development and Scrum.md",
+    "TryHackMe/Learning Paths/Pre Security/Network Fundamentals.md",
+    "TryHackMe/Learning Paths/Pre Security/Introduction to Cyber Security.md",
+    "Career & Job Hunting Advice.md",
+    "TryHackMe/Modules",
+    "TryHackMe/Learning Paths",
+    "TryHackMe/Networks",
+    "TryHackMe/Pre Security/Untitled",
+    "TryHackMe/Learning Paths/Pre Security",
+    "README.md",
+    "Software Development Methodologies.md",
+    "TryHackMe/Advent of Code 2023/Day 2.md",
+    "TryHackMe/Advent of Code 2023/Day 10 - Inject the Halls with EXEC Queries.md",
+    "Codecademy/Computer Science Track/Python Programming.md",
+    "Allegiant Giving - Skillbridge/Courses/IBM Data Science Fundamentals with Python and SQL/Python for Data Science, AI & Development.md",
+    "Allegiant Giving - Skillbridge/Code Assignments/CSV to HTML.md",
+    "Allegiant Giving - Skillbridge/Courses/Python for Everybody Specialization.md",
+    "TryHackMe/Advent of Code 2023/Day 4.md",
+    "Cheatsheets/Python Cheat Sheet - The Basics Coursera.pdf",
+    "Allegiant Giving - Skillbridge/Courses/IBM DevOps and Software Engineering/Developing AI Applications with Python and Flask.md",
     "Allegiant Giving - Skillbridge/Courses/IBM DevOps and Software Engineering/Hands-on Introduction to Linux Commands and Shell Scripting.md",
+    "Allegiant Giving - Skillbridge/Courses/IBM DevOps, Cloud, and Agile Foundations/Introduction to Agile Development and Scrum.md",
     "Allegiant Giving - Skillbridge/Courses/IBM DevOps, Cloud, and Agile Foundations/Introduction to DevOps.md",
     "Allegiant Giving - Skillbridge/Courses/IBM DevOps and Software Engineering",
     "Allegiant Giving - Skillbridge/Courses/IBM Data Science Fundamentals with Python and SQL/Tools for Data Science.md",
@@ -166,33 +177,14 @@
     "Allegiant Giving - Skillbridge/Courses/IBM Full Stack Software Developer/Introduction to Cloud Computing - Module 1.md",
     "Allegiant Giving - Skillbridge/Courses/IBM Full Stack Software Developer/Getting Started with Git and GitHub - Module 3.md",
     "Allegiant Giving - Skillbridge/Courses/IBM Data Science Fundamentals with Python and SQL/Python Project for Data Science.md",
-    "Allegiant Giving - Skillbridge/Courses/IBM Data Science Fundamentals with Python and SQL/Python for Data Science, AI & Development.md",
-    "Cheatsheets/Python Cheat Sheet - The Basics Coursera.pdf",
     "Cheatsheets/Python Cheat Sheet - The Basics Coursera.pdf.crdownload",
     "Allegiant Giving - Skillbridge/Courses/IBM Data Science Fundamentals with Python and SQL",
-    "TryHackMe/Advent of Code/Day 2.md",
-    "TryHackMe/Advent of Code/Day 10 - Inject the Halls with EXEC Queries.md",
-    "TryHackMe/Advent of Code/Day 7.md",
-    "TryHackMe/Advent of Code/Day 5.md",
-    "TryHackMe/Advent of Code/Day 4.md",
-    "TryHackMe/Advent of Code/Day 3.md",
+    "TryHackMe/Advent of Code 2023/Day 7.md",
+    "TryHackMe/Advent of Code 2023/Day 5.md",
+    "TryHackMe/Advent of Code 2023/Day 3.md",
     "Allegiant Giving - Skillbridge/Code Assignments/Joining Tables.md",
     "Allegiant Giving - Skillbridge/Code Assignments/Handling Files.md",
-    "Allegiant Giving - Skillbridge/Code Assignments/Google Drive Download Bash Script.md",
-    "Allegiant Giving - Skillbridge/Code Assignments/Fix a Slow System with Python.md",
-    "Allegiant Giving - Skillbridge/Code Assignments/CSV to HTML.md",
-    "Allegiant Giving - Skillbridge/Code Assignments/Automatically Generate a PDF and Send It by Email.md",
-    "Allegiant Giving - Skillbridge/Code Assignments/Counting in SQL with Python.md",
-    "Allegiant Giving - Skillbridge/Code Assignments/Process Text Files with Python Dictionaries ....md",
-    "Allegiant Giving - Skillbridge/Code Assignments/Parsing Websites in XML.md",
-    "Allegiant Giving - Skillbridge/Code Assignments/Many-Many Relationships in SQL.md",
-    "Allegiant Giving - Skillbridge/Code Assignments/Loops and Web Scraping.md",
-    "Allegiant Giving - Skillbridge/Courses/IBM Full Stack Software Developer",
-    "TryHackMe/Advent of Code",
-    "TryHackMe/Advent of Code",
     "Pasted image 20231204105112.png",
-    "TryHackMe",
-    "Allegiant Giving - Skillbridge/Courses",
     "Untitled.canvas",
     "Pasted image 20230403191154.png",
     "Pasted image 20230403191111.png"
